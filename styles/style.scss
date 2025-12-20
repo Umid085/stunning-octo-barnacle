@@ -4,48 +4,63 @@
 * {
     margin: 0;
     padding: 0;
-    position: flex;
-    justify-content: space-around;
-    max-width: auto;
 }
 
 .navbar {
-    padding: 50px;
+    padding: 2rem;
     background-color: $dark;
     color: $white;
     align-items: center;
     justify-content: space-between;
+    font-family: sans-serif;
 
 
-    .logo-text {
-        text-decoration: none;
+    .logos {
         color: $white;
-        font-weight: bold;
-        font-size: 40px;
         border: none;
+        left: 324px;
+        display: flex;
+        flex-direction: column;
     }
 
     .links {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         font-size: 20px;
+        list-style-type: none;
+        margin-left: auto;
+        gap: 1rem;
+        margin-right: 2rem;
+    }
+
+    li {
+        display: inline;
     }
 
     a {
-        margin-right: 20px;
+        color: $white;
+        text-decoration: none;
+        padding: 0.5rem 1rem;
+        display: block;
     }
 
-    button {
-        width: 183px;
-        height: 56px;
+    .order-btn {
+        height: 32px;
+        width: 103px;
         opacity: 1;
-        top: 50px;
         border-radius: 49px;
         border-color: $lime;
         color: $white;
         background-color: #2EECC51A;
         font-size: 20px;
-        box-shadow: 0 0 7px $lime;
+        box-shadow: 
+        0 0 5px $lime,   /* Inner glow layer */
+        0 0 10px $lime,  /* Medium glow layer */
+        0 0 20px $lime;  /* Strong outer glow */
+
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
     }
 }
 
