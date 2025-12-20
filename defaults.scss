@@ -1,0 +1,13 @@
+@mixin defaults { 
+    padding: 0;
+    margin: 0;
+    position: flex;
+    justify-content: space-around;
+}
+
+@mixin button_style {
+    border-radius: 50%;
+    border-color: $light_green;
+    width:183px;
+    height: 56px;
+}
