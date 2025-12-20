@@ -14,12 +14,36 @@ nav {
 }
 
 .navbar {
-  margin: 50px;
   padding: 50px;
   background-color: #161617;
   color: #ffffff;
+  align-items: center;
+  justify-content: space-between;
 }
-.navbar links {
+.navbar .logo-text {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 40px;
+  border: none;
+}
+.navbar .links {
   display: flex;
-  justify-content: right;
+  justify-content: space-between;
+  font-size: 20px;
+}
+.navbar a {
+  margin-right: 20px;
+}
+.navbar button {
+  width: 183px;
+  height: 56px;
+  opacity: 1;
+  top: 50px;
+  border-radius: 49px;
+  border-color: #2EECC5;
+  color: #ffffff;
+  background-color: rgba(46, 236, 197, 0.1019607843);
+  font-size: 20px;
+  box-shadow: 0 0 7px #2EECC5;
 }/*# sourceMappingURL=style.css.map */
