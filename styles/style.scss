@@ -1,3 +1,23 @@
+@import "colors";
+@import "navbar";
+
 * {
-    background-color: black;
+    margin: 0;
+    padding: 0;
+    position: flex;
+    justify-content: space-around;
+    max-width: auto;
 }
+
+.navbar {
+    margin: 50px;
+    padding: 50px;
+    background-color: $dark;
+    color: $white;
+
+    links {
+        display: flex;
+        justify-content: right;
+    }
+}
+

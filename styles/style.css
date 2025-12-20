@@ -1,3 +1,25 @@
+nav {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
 * {
-  background-color: black;
+  margin: 0;
+  padding: 0;
+  position: flex;
+  justify-content: space-around;
+  max-width: auto;
+}
+
+.navbar {
+  margin: 50px;
+  padding: 50px;
+  background-color: #161617;
+  color: #ffffff;
+}
+.navbar links {
+  display: flex;
+  justify-content: right;
 }/*# sourceMappingURL=style.css.map */
