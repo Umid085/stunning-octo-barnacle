@@ -1,9 +1,7 @@
 nav {
-  margin: 0;
-  padding: 0;
   display: flex;
   justify-content: space-between;
-  padding: 2rem;
+  padding: 1rem;
   background-color: #161617;
   color: #ffffff;
   align-items: center;
@@ -13,7 +11,6 @@ nav {
 nav .logos {
   color: #ffffff;
   border: none;
-  left: 324px;
   display: flex;
   flex-direction: column;
 }
@@ -36,21 +33,58 @@ nav a {
   display: block;
 }
 nav .order-btn {
-  height: 32px;
+  height: auto;
   width: 103px;
   opacity: 1;
   border-radius: 49px;
   border-color: #2EECC5;
   color: #ffffff;
   background-color: rgba(46, 236, 197, 0.1019607843);
-  font-size: 20px;
   box-shadow: 0 0 5px #2EECC5, 0 0 10px #2EECC5, 0 0 20px #2EECC5; /* Strong outer glow */
   display: flex;
   align-items: center;
   justify-content: space-around;
+  padding: 0.4rem 1rem;
+  font-size: 1rem;
+}
+nav #menu-toggle {
+  display: none;
+}
+nav .hamburger {
+  width: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+}
+nav .hamburger span {
+  height: 3px;
+  background: #ffffff;
+  border-radius: 2px;
+}
+nav #menu-toggle:checked + .hamburger + .links {
+  display: flex;
 }
 
+@media (min-width: 768px) {
+  nav .hamburger {
+    display: none;
+  }
+  nav .links {
+    flex-direction: row;
+    font-size: 20px;
+    gap: 1rem;
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    gap: 1rem;
+  }
+  nav nav order-btn {
+    align-self: center;
+  }
+}
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }/*# sourceMappingURL=style.css.map */

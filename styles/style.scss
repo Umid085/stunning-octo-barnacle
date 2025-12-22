@@ -1,12 +1,11 @@
 @import "colors";
 @import "navbar";
+@import "media";
 
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-@mixin navbar {
-    @include nav;
-}
 
