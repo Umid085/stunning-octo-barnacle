@@ -7,6 +7,12 @@
     
     <link rel="stylesheet" href="./styles/style.css">
 
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    
+    <link rel="stylesheet" href="./styles/style.css">
+    <!-- ... rest of your head content -->
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
@@ -34,6 +40,66 @@
         <a href="#" class="order-btn">Заказать</a>
     </nav>
     
+    <!-- Main Swiper Container -->
+    <div class="swiper swiper-vertical-timeline">
+      <!-- Wrapper for slides -->
+      <div class="swiper-wrapper">
+        
+        <!-- Each section of your website becomes a Swiper Slide -->
+        <div class="swiper-slide">
+            <!-- Content for Section 01 goes here (e.g., your homepage intro) -->
+            <h1>Section 01 Title</h1>
+            <p>Welcome to the first section of the website.</p>
+        </div>
+        <div class="swiper-slide">
+            <!-- Content for Section 02 -->
+            <h1>Section 02 Title</h1>
+            <p>Details about why you should choose us.</p>
+        </div>
+        <div class="swiper-slide">
+            <!-- Content for Section 03 -->
+            <h1>Section 03 Title</h1>
+        </div>
+        <div class="swiper-slide">
+            <!-- Content for Section 04 -->
+            <h1>Section 04 Title</h1>
+        </div>
+        <div class="swiper-slide">
+            <!-- Content for Section 05 -->
+            <h1>Section 05 Title</h1>
+        </div>
+
+      </div>
+      
+      <!-- Custom Pagination Container (your original scrollbar div) -->
+      <div class="swiper-pagination custom-timeline-pagination"></div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- ... rest of your body content ... -->
+    
+    <script>
+        const swiper = new Swiper('.swiper-vertical-timeline', {
+            direction: 'vertical',
+            slidesPerView: 1,
+            spaceBetween: 0,
+            mousewheel: true,
+            speed: 800,
+            pagination: {
+                el: '.custom-timeline-pagination',
+                clickable: true,
+                // Function to customize bullet HTML
+                renderBullet: function (index, className) {
+                    // index starts at 0, so add 1 and format as '01', '02', etc.
+                    const number = (index + 1).toString().padStart(2, '0');
+                    // The returned HTML is what goes inside the pagination container
+                    return '<div class="' + className + '"><span class="step-number">' + number + '</span><div class="step-node"></div></div>';
+                },
+            },
+        });
+    </script>   
     
 </body>
 </html>
