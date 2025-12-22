@@ -3,4 +3,49 @@ nav {
   padding: 0;
   display: flex;
   justify-content: space-between;
+  padding: 2rem;
+  background-color: #161617;
+  color: #ffffff;
+  align-items: center;
+  justify-content: space-between;
+  font-family: sans-serif;
+}
+nav .logos {
+  color: #ffffff;
+  border: none;
+  left: 324px;
+  display: flex;
+  flex-direction: column;
+}
+nav .links {
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+  list-style-type: none;
+  margin-left: auto;
+  gap: 1rem;
+  margin-right: 2rem;
+}
+nav li {
+  display: inline;
+}
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  display: block;
+}
+nav .order-btn {
+  height: 32px;
+  width: 103px;
+  opacity: 1;
+  border-radius: 49px;
+  border-color: #2EECC5;
+  color: #ffffff;
+  background-color: rgba(46, 236, 197, 0.1019607843);
+  font-size: 20px;
+  box-shadow: 0 0 5px #2EECC5, 0 0 10px #2EECC5, 0 0 20px #2EECC5; /* Strong outer glow */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }/*# sourceMappingURL=navbar.css.map */

@@ -3,14 +3,6 @@ nav {
   padding: 0;
   display: flex;
   justify-content: space-between;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-}
-
-.navbar {
   padding: 2rem;
   background-color: #161617;
   color: #ffffff;
@@ -18,14 +10,14 @@ nav {
   justify-content: space-between;
   font-family: sans-serif;
 }
-.navbar .logos {
+nav .logos {
   color: #ffffff;
   border: none;
   left: 324px;
   display: flex;
   flex-direction: column;
 }
-.navbar .links {
+nav .links {
   display: flex;
   justify-content: space-around;
   font-size: 20px;
@@ -34,16 +26,16 @@ nav {
   gap: 1rem;
   margin-right: 2rem;
 }
-.navbar li {
+nav li {
   display: inline;
 }
-.navbar a {
+nav a {
   color: #ffffff;
   text-decoration: none;
   padding: 0.5rem 1rem;
   display: block;
 }
-.navbar .order-btn {
+nav .order-btn {
   height: 32px;
   width: 103px;
   opacity: 1;
@@ -56,4 +48,9 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-around;
+}
+
+* {
+  margin: 0;
+  padding: 0;
 }/*# sourceMappingURL=style.css.map */
