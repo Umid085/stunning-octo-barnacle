@@ -161,11 +161,6 @@ nav .order-btn {
   justify-content: center;
   align-items: center;
 }
-.footer .footer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 .footer .footer-title {
   display: flex;
   align-items: center;
@@ -177,10 +172,31 @@ nav .order-btn {
 .footer .footer-icons {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
+  color: transparent;
 }
 .footer .footer-icons a {
-  color: #ffffff;
+  background-color: #ffffff;
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.footer .footer-icons a i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #161617;
+  background: transparent;
+  font-size: 2rem;
+}
+.footer .footer-icons a .footer-icons a:hover {
+  box-shadow: 0 0 0 4px #ffffff;
+  transform: scale(1.05);
+  transition: 0.2s;
 }
 .footer .footer-date-info {
   display: flex;
@@ -189,6 +205,7 @@ nav .order-btn {
   font-size: 15px;
   opacity: 70%;
   font-style: regular;
+  margin-top: 20px;
 }
 .footer .footer-disclaimer {
   display: flex;
