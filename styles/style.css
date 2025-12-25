@@ -179,6 +179,9 @@ nav .order-btn {
   align-items: center;
   justify-content: center;
 }
+.footer .footer-icons a {
+  color: #ffffff;
+}
 .footer .footer-date-info {
   display: flex;
   align-items: center;
