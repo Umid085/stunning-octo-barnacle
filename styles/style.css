@@ -156,5 +156,42 @@ nav .order-btn {
 }
 
 .footer {
-  position: absolute;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer .footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer .footer-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+  font-style: bold;
+  font-size: 96px;
+}
+.footer .footer-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer .footer-date-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  opacity: 70%;
+  font-style: regular;
+}
+.footer .footer-disclaimer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  font-size: 13px;
+  opacity: 40%;
 }/*# sourceMappingURL=style.css.map */
