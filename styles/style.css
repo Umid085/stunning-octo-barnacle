@@ -69,6 +69,8 @@ nav .order-btn {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  background: transparent;
+  padding: 0 2rem;
 }
 
 .hero-left-section {
@@ -76,29 +78,35 @@ nav .order-btn {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  height: 100vh;
+  height: 80%;
   gap: 1.5rem;
-  width: 40%;
+  width: 50%;
+  margin-top: -10rem;
 }
 
 .hero-title {
-  font-size: 65px;
+  font-size: 60px;
   font-family: Arial, sans-serif;
-  font-style: bold;
-  font-weight: 400;
+  font-style: normal;
+  font-weight: bold;
   background: linear-gradient(to right, #B5FEEF, #2EECC5);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  gap: 0.5rem;
+
+  filter: drop-shadow(0px 0px 5px #2EECC5);
 }
 
 .hero-title-bottom {
   font-size: 45px;
   font-style: normal;
   font-family: Arial, sans-serif;
-  font-weight: 400;
+  font-weight: 700;
   background: linear-gradient(to right, #B5FEEF, #2EECC5);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+
+  filter: drop-shadow(0px 0px 5px #2EECC5);
 }
 
 .hero-subtitle {
@@ -141,24 +149,25 @@ nav .order-btn {
 }
 
 .hero-right-section {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   position: relative;
 
   width: 50%;
-  height: 70vh;
+  height: 60vh;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 2rem;
-
-  background-image: url("images/Group 49.png");
-  background-size: 30vh 30vh;
-  background-position: right;
-  background-repeat: no-repeat;
-
   z-index: 1;
+}
+
+.bg-circle {
+  position: absolute;
+  top: -10%;
+  left: 30%;
+  width: 70vh;
+  height: auto;
+  z-index: 1;
+  background: transparent;
 }
 
 .hero-image {
