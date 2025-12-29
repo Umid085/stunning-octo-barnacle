@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,11 +20,11 @@
 <body>
     <nav class="navbar">
         <div class="logos">
-            <img src="images/STUDIO.png" alt="#">
-            <img src="images/WEB.png" alt="#">
+            <img class="logo-img" src="images/STUDIO.png" alt="#">
+            <img class="logo-img" src="images/WEB.png" alt="#">
         </div>
 
-        <input type="checkbox" id="menu-toggle">
+        <input type="checkbox" id="menu-toggle" aria-label="Toggle menu"/>
         <label for="menu-toggle" class="hamburger">
             <span></span>
             <span></span>
@@ -44,8 +44,8 @@
     <section class="hero-section">
         <div class="hero-left-section">
             <h1 class="hero-title">РАЗРАБОТКА САЙТОВ</h1>
-            <h1 class="hero-title-bottom">ДЛЯ ТВОЕГО БИЗНЕСА</h1>
-            <h3 class="hero-subtitle">Мы - студияweb-разработки, работаем уже более 3-х <br>лет, готовы разработать для вас сайт вкротчайшие сроки.</h3>
+            <h2 class="hero-title-bottom">ДЛЯ ТВОЕГО БИЗНЕСА</h2>
+            <h3 class="hero-subtitle">Мы - студия web-разработки, работаем уже более 3-х <br>лет, готовы разработать для вас сайт в кратчайшие сроки.</h3>
             <div class="hero-more">
                 <a href="#" class="hero-btn">Подробнее > </a>
                 <p class="hero-p">Остались вопросы?</p>
@@ -58,8 +58,7 @@
     </section>
 
     
-    <section class="footer">
-        <footer class="footer-section">
+        <footer class="footer">
             <h1 class="footer-title">КОНТАКТЫ</h1>
             <div class="footer-icons">
                 <a href="#"><i class="fa-solid fa-user-group"></i></a>
@@ -71,32 +70,5 @@
             <p class="footer-date-info">2019–2022, WEB Studio - Разработка сайтов для предприятий</p>
             <p class="footer-disclaimer">Политика сайта и обработка персональных данных</p>
         </footer>
-    </section>
-
-    <!-- Swiper JS -->
-    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> -->
-
-    <!-- ... rest of your body content ... -->
-    
-    <!-- <script>
-        const swiper = new Swiper('.swiper-vertical-timeline', {
-            direction: 'vertical',
-            slidesPerView: 1,
-            spaceBetween: 0,
-            mousewheel: true,
-            speed: 800,
-            pagination: {
-                el: '.custom-timeline-pagination',
-                clickable: true, -->
-                <!-- // Function to customize bullet HTML
-                renderBullet: function (index, className) {
-                    // index starts at 0, so add 1 and format as '01', '02', etc.
-                    const number = (index + 1).toString().padStart(2, '0');
-                    // The returned HTML is what goes inside the pagination container
-                    return '<div class="' + className + '"><span class="step-number">' + number + '</span><div class="step-node"></div></div>';
-                },
-            },
-        }); -->
-    <!-- </script>   -->
 </body>
 </html>
