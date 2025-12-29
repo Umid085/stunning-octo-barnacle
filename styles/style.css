@@ -3,7 +3,7 @@ nav {
   flex-direction: column;
   justify-content: space-between;
   gap: 1rem;
-  padding: 1rem;
+  padding: 3rem;
   background-color: #161617;
   color: #ffffff;
   font-family: sans-serif;
@@ -27,6 +27,13 @@ nav .hamburger span {
   background: #ffffff;
   border-radius: 2px;
 }
+
+.nav-buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
 nav .links {
   display: none;
   flex-direction: column;
@@ -34,6 +41,7 @@ nav .links {
   gap: 0.5rem;
   font-size: 16px;
   margin: 0;
+  background: transparent;
 }
 nav #menu-toggle:checked + .hamburger + .links {
   display: flex;
@@ -69,6 +77,8 @@ nav .order-btn {
   justify-content: center;
   align-items: flex-start;
   height: 100vh;
+  gap: 1.5rem;
+  width: 40%;
 }
 
 .hero-title {
@@ -89,7 +99,6 @@ nav .order-btn {
   background: linear-gradient(to right, #B5FEEF, #2EECC5);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  padding-bottom: 5vh;
 }
 
 .hero-subtitle {
@@ -99,7 +108,6 @@ nav .order-btn {
   font-size: 22px;
   color: #ffffff;
   opacity: 65%;
-  padding-bottom: 5vh;
   background: transparent;
 }
 
@@ -108,6 +116,7 @@ nav .order-btn {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  gap: 1rem;
 }
 
 .hero-btn {
@@ -129,7 +138,35 @@ nav .order-btn {
   color: #ffffff;
   opacity: 65%;
   background: transparent;
-  margin-left: 2vh;
+}
+
+.hero-right-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  width: 50%;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+
+  background-image: url("images/Group 49.png");
+  background-size: 30vh 30vh;
+  background-position: right;
+  background-repeat: no-repeat;
+
+  z-index: 1;
+}
+
+.hero-image {
+  position: absolute;
+  width: 80vh;
+  height: auto;
+  z-index: 2;
+  background: transparent;
 }
 
 @media (min-width: 768px) {
