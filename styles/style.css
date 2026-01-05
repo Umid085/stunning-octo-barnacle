@@ -201,6 +201,8 @@ body {
 
 .cards-section {
   background-color: #161617;
+
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .cards-container {
@@ -254,27 +256,29 @@ body {
   font-weight: bold;
   color: #ffffff;
   gap: 2rem;
+  padding: 2rem;
 }
 
 .cards-content {
   font-family: Arial, Helvetica, sans-serif;
   font-style: medium;
   font-weight: 400;
-  font-size: 17px;
+  font-size: 20px;
   color: #ffffff;
   opacity: 90%;
   background: transparent;
-  margin-top: 1rem;
+  padding-left: 2rem;
 }
 
 .cards-btn {
+  margin-left: 2rem;
   padding: 1rem;
   width: 200px;
 
   height: auto;
   border: 1.5px solid #2EECC5;
   
-  font-size: 1rem;
+  font-size: 19px;
   border-radius: 2px;
   color: #ffffff;
   background-color: black;
@@ -288,10 +292,17 @@ body {
 }
 
 .cards-prices {
+  position: relative;
   width: 400px;
-  height: auto;
-  margin: 0 auto;
-  gap: 1rem;
+  height: 400px;
+  background: linear-gradient(to bottom, #527791, #325597, #193895);
+  border-radius: 4px;
+}
+
+.cards-prices-img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
 
 .cards-deadline {
