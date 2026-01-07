@@ -423,6 +423,7 @@ body {
 .carousel-track {
   display: flex;
   transition: transform 0.5s ease-in-out;
+  z-index: 2;
 }
 
 .carousel-item {
@@ -433,6 +434,7 @@ body {
   align-items: center;
   font-size: 2rem;
   font-weight: bold;
+  z-index: 2;
 }
 
 .carousel-item img {
@@ -440,31 +442,55 @@ body {
   height: 100%;
   object-fit: cover;
   border-radius: 10px;
+  z-index: 2;
 }
 
 .carousel-buttons {
   position: absolute;
   top: 50%;
+
+  left: 0;
+  right: 0;
+
+
   width: 100%;
   display: flex;
   justify-content: space-between;
+
   transform: translateY(-50%);
-  padding: 0 1rem;
-  box-sizing: border-box;
+  pointer-events: none;
+
+  z-index: 9;
 }
+
+/* .carousel-buttons button:first-child {
+  transform: translateX(-50%);
+} */
+
+/* .carousel-buttons button:first-child {
+  transform: translateX(-50%);
+} */
 
 .carousel-buttons button {
-  background: rgba(0,0,0,0.5);
-  border: none;
-  color: white;
-  font-size: 2rem;
+  pointer-events: auto;
   cursor: pointer;
-  padding: 0.2rem 0.6rem;
-  border-radius: 5px;
-}
 
-.carousel-buttons button:hover {
-  background: rgba(46,236,197,0.8);
+  width: 45px;
+  height: 45px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 1.5rem;
+  color: #153630;
+
+  border-radius: 50%;
+  border: 2px solid #153630;
+
+  background:
+    linear-gradient(to bottom, #323939, #19201F) padding-box,
+    linear-gradient(to bottom, #323939, #303134) border-box;
 }
 
 
