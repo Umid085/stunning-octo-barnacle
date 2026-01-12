@@ -47,6 +47,9 @@
   font-size: 16px;
   margin: 0;
   background: transparent;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
 }
 
 .navbar .links:nth-child(2) {
@@ -225,6 +228,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: start;
+  padding-left: 0;
 }
 
 .cards-main h3 {
@@ -236,6 +240,7 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   gap: 0.5rem;
+  padding-left: 0;
 }
 
 .cards-main p{
@@ -247,6 +252,7 @@ body {
   opacity: 65%;
   background: transparent;
   margin-top: 1rem;
+  padding-left: 0;
 }
 
 .cards-title {
@@ -279,7 +285,7 @@ body {
   border: 1.5px solid #2EECC5;
   
   font-size: 19px;
-  border-radius: 2px;
+  border-radius: 4px;
   color: #ffffff;
   background-color: black;
 
@@ -289,6 +295,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  margin-left: 0;
 }
 
 .cards-prices {
@@ -311,10 +319,8 @@ body {
   width: 100%;
   height: 400px;
   gap: 1rem;
-  border-style: solid;
+  border: solid rgb(94, 94, 94) 0.5px;
   border-radius: 4px;
-  border-color: #ffffff;
-  border-width: 0.5px;
   background: linear-gradient(to bottom, #303134, #282828);
 }
 
@@ -323,10 +329,8 @@ body {
   width: 100%;
   height: 400px;
   gap: 1rem;
-  border-style: solid;
   border-radius: 4px;
-  border-color: #ffffff;
-  border-width: 0.5px;
+  border: solid rgb(94, 94, 94) 0.5px;
   background: linear-gradient(to bottom, #303134, #282828);
 }
 
@@ -335,10 +339,8 @@ body {
   width: 100%;
   height: 400px;
   gap: 1rem;
-  border-style: solid;
   border-radius: 4px;
-  border-color: #ffffff;
-  border-width: 0.5px;
+  border: solid rgb(94, 94, 94) 0.5px;
   background: linear-gradient(to bottom, #303134, #282828);
 }
 
@@ -367,7 +369,7 @@ body {
   gap: 4rem;
   width: 50%;
 
-  padding: 4rem 2rem;
+  padding: 4rem 0rem;
 }
 
 .portfolio-title {
@@ -435,6 +437,7 @@ body {
   font-size: 2rem;
   font-weight: bold;
   z-index: 2;
+  border: solid 2px #2EECC5 20%;
 }
 
 .carousel-item img {
@@ -443,6 +446,7 @@ body {
   object-fit: cover;
   border-radius: 10px;
   z-index: 2;
+  border: solid 2px #2EECC5 20%;
 }
 
 .carousel-buttons {
@@ -624,6 +628,7 @@ body {
   -webkit-text-fill-color: transparent;
   gap: 0.5rem;
   text-align: start;
+  width: 58rem;
 }
 
 .form-forms {
@@ -689,8 +694,8 @@ body {
   width: auto;
   top: 1%;
   background: transparent;
+  padding-top: 1rem;
 }
-
 
 .footer {
   color: #ffffff;
@@ -699,6 +704,7 @@ body {
   justify-content: center;
   align-items: center;
 }
+
 .footer .footer-title {
   display: flex;
   align-items: center;
@@ -706,13 +712,18 @@ body {
   font-weight: 400;
   font-style: bold;
   font-size: 96px;
+  padding: 4rem;
 }
+
 .footer .footer-icons {
   display: flex;
   align-items: center;
   justify-content: space-around;
   color: transparent;
+  width: 50%;
+  padding: 2rem;
 }
+
 .footer .footer-icons a {
   background-color: #ffffff;
   border-radius: 50%;
@@ -722,7 +733,10 @@ body {
   justify-content: center;
   align-items: center;
   text-decoration: none;
+  border: solid 5px #161617;
+  outline: solid 1px grey;
 }
+
 .footer .footer-icons a i {
   display: flex;
   justify-content: center;
@@ -731,12 +745,14 @@ body {
   background: transparent;
   font-size: 2rem;
 }
+
 .footer .footer-icons a:hover {
-  box-shadow: 0 0 0 4px #ffffff;
   background-color: radial-gradient(to center, #2EECC5, #00644F);
-  transform: scale(1.05);
-  transition: 0.2s;
+  transform: scale(1.20);
+  transition: 1s;
+  background-color: #2EECC5;
 }
+
 .footer .footer-date-info {
   display: flex;
   align-items: center;
@@ -746,6 +762,7 @@ body {
   font-style: regular;
   margin-top: 20px;
 }
+
 .footer .footer-disclaimer {
   display: flex;
   align-items: center;
