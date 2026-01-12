@@ -1,7 +1,7 @@
 const track = document.querySelector('.carousel-track');
 const slides = Array.from(track.children);
-const nextButton = document.getElementById('next');
-const prevButton = document.getElementById('prev');
+const nextButton = document.getElementById('portfolio-next');
+const prevButton = document.getElementById('portfolio-prev');
 
 let currentIndex = 0;
 
