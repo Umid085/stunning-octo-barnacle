@@ -1,0 +1,245 @@
+[33mcommit 8f02928ef52cb8945fa2e22a9f495c222673b56e[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Steve <peersalexandr@gmail.com>
+Date:   Tue Jan 13 13:25:37 2026 +0500
+
+    reserved push
+
+[33mcommit 1cb6c208b74e499b75e614c2937a5914ad9d85cf[m
+Author: Steve <peersalexandr@gmail.com>
+Date:   Tue Jan 13 12:46:46 2026 +0500
+
+    ready counter side
+
+[33mcommit 11e8b376572529b1620a97974dcf5e9be7c30b38[m
+Author: Steve <peersalexandr@gmail.com>
+Date:   Mon Jan 12 18:07:26 2026 +0500
+
+    fixing bugs
+
+[33mcommit bb8686623e3ae9dd2af5aee21e122081a6c401f8[m
+Author: Steve <peersalexandr@gmail.com>
+Date:   Mon Jan 12 13:34:39 2026 +0500
+
+    ready form section
+
+[33mcommit a6f9dd1744157e4cccfba38f266dbc5daa0589e6[m
+Author: Steve <peersalexandr@gmail.com>
+Date:   Fri Jan 9 23:09:06 2026 +0500
+
+    pricing section start and adding cards before make them carousel
+
+[33mcommit e812ff4cca2bf95bad11809ec665b4abbae7d243[m
+Author: Steve <peersalexandr@gmail.com>
+Date:   Wed Jan 7 18:17:11 2026 +0500
+
+    fixing bugs with carousel buttons
+
+[33mcommit 48aaadc9516db0b06c4e2874c7351331778487c6[m
+Author: Steve <peersalexandr@gmail.com>
+Date:   Wed Jan 7 16:04:24 2026 +0500
+
+    adding carousel to the portfolio section
+
+[33mcommit 0bc203377683decf78cfe10165fa51fd21b0c8ec[m
+Author: Steve <peersalexandr@gmail.com>
+Date:   Wed Jan 7 14:01:28 2026 +0500
+
+    making portfolio section
+
+[33mcommit 5468c708a6e7d40e6b93a0789881a8a177051c11[m
+Author: Steve <peersalexandr@gmail.com>
+Date:   Tue Jan 6 00:07:27 2026 +0500
+
+    pushing in advance
+
+[33mcommit 09bfe7807d4ade2d27d00bc96e5d50b7677ebbfe[m
+Author: Steve <peersalexandr@gmail.com>
+Date:   Mon Jan 5 16:58:21 2026 +0500
+
+    almost ready cards section
+
+[33mcommit 665ba875b598b9bfaa4a51f7b6d12704f196bed9[m
+Author: Steve <peersalexandr@gmail.com>
+Date:   Mon Jan 5 13:56:12 2026 +0500
+
+    fixing bugs with cards section
+
+[33mcommit 97fbeab88c1f9b508712a3d12f9f0c78ffa8c6cd[m
+Author: Steve <peersalexandr@gmail.com>
+Date:   Mon Jan 5 13:33:23 2026 +0500
+
+    working on cards section
+
+[33mcommit 246fa4e79d40aed0f87a47f158c1e697ffa27ef8[m
+Author: Steve <peersalexandr@gmail.com>
+Date:   Wed Dec 31 13:43:09 2025 +0500
+
+    responsive hamburger icon ready with logic
+
+[33mcommit 78729c0eaf160245acc47efe75c67e2e6602c6d3[m
+Author: Steve <peersalexandr@gmail.com>
+Date:   Tue Dec 30 12:28:43 2025 +0500
+
+    fixing links of hamburger section
+
+[33mcommit ee7e3aae4152d9a136f8fe6ca4b6dd14e0b3830e[m
+Author: Steve <peersalexandr@gmail.com>
+Date:   Mon Dec 29 22:17:53 2025 +0500
+
+    working hamburger on mobile
+
+[33mcommit f73bbfd54ebba759747ed3b23b9a69fa7b94a160[m
+Author: Steve <peersalexandr@gmail.com>
+Date:   Mon Dec 29 21:48:21 2025 +0500
+
+    fixing responsive bags of navbar section
+
+[33mcommit f83dea256a4622af0fa35ffeaf32a52e6f6fa8a1[m
+Author: Steve <peersalexandr@gmail.com>
+Date:   Mon Dec 29 18:24:14 2025 +0500
+
+    fixing hero section
+
+[33mcommit 85056061ca9e9f5163a75a2a2a2ebbb673896f2f[m
+Author: Steve <peersalexandr@gmail.com>
+Date:   Mon Dec 29 17:35:07 2025 +0500
+
+    hero-ready not responsive
+
+[33mcommit d30ddbe44886edb69ab0e809b85c4de1fd8d2d23[m
+Author: Steve <peersalexandr@gmail.com>
+Date:   Mon Dec 29 16:53:42 2025 +0500
+
+    hero left part ready
+
+[33mcommit 29c02d266ba95c5a2ca2a0877aeed81ac37ef8f4[m
+Author: Steve <peersalexandr@gmail.com>
+Date:   Sat Dec 27 18:04:34 2025 +0500
+
+    starting hero section
+
+[33mcommit abd115192e513b28cef3a2bcd74fae915e7deaee[m
+Author: Steve <peersalexandr@gmail.com>
+Date:   Sat Dec 27 16:13:13 2025 +0500
+
+    removing counter scroller and beginning of hero section
+
+[33mcommit 59c586165dce62f25543d9c4629edf30e01c13be[m
+Author: Steve <peersalexandr@gmail.com>
+Date:   Thu Dec 25 18:11:53 2025 +0500
+
+    adding footer icons and sizing them
+
+[33mcommit 333576388054edc241c2d13257ae26b198d854a6[m
+Author: Steve <peersalexandr@gmail.com>
+Date:   Thu Dec 25 16:22:29 2025 +0500
+
+    adding icons
+
+[33mcommit 320a46a392f6b10dde5c2c957eef987f8a57ceb5[m
+Author: Steve <peersalexandr@gmail.com>
+Date:   Thu Dec 25 15:46:46 2025 +0500
+
+    fotter text and its decoration
+
+[33mcommit 3e03420d7e9198566e5ab386af783b435e0d6c4e[m
+Author: Steve <peersalexandr@gmail.com>
+Date:   Thu Dec 25 12:09:16 2025 +0500
+
+    fixing bugs and testing with footer section
+
+[33mcommit 99536b2be1a3c8e3d5b5332b2576b9e0144509c3[m
+Author: Steve <peersalexandr@gmail.com>
+Date:   Wed Dec 24 22:31:19 2025 +0500
+
+    updating for last commit
+
+[33mcommit 24558c76423aa576840b286897b0458951503095[m
+Author: Steve <peersalexandr@gmail.com>
+Date:   Mon Dec 22 17:58:30 2025 +0500
+
+    ensurance
+
+[33mcommit badfb2671448df06cadd624e6e0f689b738ece7c[m
+Author: Steve <peersalexandr@gmail.com>
+Date:   Mon Dec 22 17:39:44 2025 +0500
+
+    almsot done with scroll bar
+
+[33mcommit 473abc2f92219d31b0ecbdeb91828808683d90a3[m
+Author: Steve <peersalexandr@gmail.com>
+Date:   Mon Dec 22 16:37:54 2025 +0500
+
+    almost done with pointer scroll bar
+
+[33mcommit bbeca7befa5c0005ef1828da633ca45499bdcf7a[m
+Author: Steve <peersalexandr@gmail.com>
+Date:   Mon Dec 22 12:57:39 2025 +0500
+
+    adding burger
+
+[33mcommit e7c0f92dab6f67dc9dcc50fda33c69afce696d40[m
+Author: Steve <peersalexandr@gmail.com>
+Date:   Mon Dec 22 10:45:34 2025 +0500
+
+    Content for navbar file
+
+[33mcommit 4feb9afa40fbfb2181b298bfb723a1015cfc69b5[m
+Author: Steve <peersalexandr@gmail.com>
+Date:   Sat Dec 20 17:41:21 2025 +0500
+
+    almost ready navbar but without responsivitiy
+
+[33mcommit 00586564757250ee8b409105b5a3d6f63a8f0d2c[m
+Author: Steve <peersalexandr@gmail.com>
+Date:   Sat Dec 20 16:58:45 2025 +0500
+
+    nailed it somehow
+
+[33mcommit 6a0f2ed12822f06cc688a1da6b015c82f4114b71[m
+Author: Steve <peersalexandr@gmail.com>
+Date:   Sat Dec 20 13:56:41 2025 +0500
+
+    broken navbar process
+
+[33mcommit 5d3342bf0e1584498d77b7a0167fa2f9c2f01663[m
+Author: Steve <peersalexandr@gmail.com>
+Date:   Sat Dec 20 13:29:38 2025 +0500
+
+    fixing problem with css connection
+
+[33mcommit 054d46a5df97025abcc48652bf5dddd17352726a[m
+Author: Steve <peersalexandr@gmail.com>
+Date:   Sat Dec 20 13:26:38 2025 +0500
+
+    fixing everything back
+
+[33mcommit a2824ead02c55225f5351cba0b9d4920cdc64ada[m
+Author: Steve <peersalexandr@gmail.com>
+Date:   Sat Dec 20 12:39:12 2025 +0500
+
+    styles update and navbar start
+
+[33mcommit 947f45a47d5b6a54d32d11afd3644c876bca1ba8[m
+Author: Steve <peersalexandr@gmail.com>
+Date:   Fri Dec 19 21:49:23 2025 +0500
+
+    Linking files and fonts
+
+[33mcommit 9cee40f3d0a1cf91749b8f4542e62e85d9e92a54[m
+Author: Steve <peersalexandr@gmail.com>
+Date:   Fri Dec 19 21:14:24 2025 +0500
+
+    Adding images and styles
+
+[33mcommit 9b392deb834f1f363257ce2233ea5bbe671da4ac[m
+Author: Steve <peersalexandr@gmail.com>
+Date:   Fri Dec 19 20:49:19 2025 +0500
+
+    Update HTML file
+
+[33mcommit 924e87e0368aa30df0a74b0f7084324e63daa824[m
+Author: Steve <peersalexandr@gmail.com>
+Date:   Fri Dec 19 20:39:19 2025 +0500
+
+    Initial commit
