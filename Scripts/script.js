@@ -19,3 +19,22 @@ prevButton.addEventListener('click', () => {
     updateCarousel();
 });
 updateCarousel();
+
+const sections = document.querySelectorAll('.page-section');
+const steps = document.querySelectorAll('.step');
+
+window.addEventListener('scroll', () => {
+  let activeIndex = 0;
+
+  sections.forEach((section, index) => {
+    const rect = section.getBoundingClientRect();
+
+    if (rect.top <= window.innerHeight / 2) {
+      activeIndex = index;
+    }
+  });
+
+  steps.forEach((step, index) => {
+    step.classList.toggle('active', index === activeIndex);
+  });
+});

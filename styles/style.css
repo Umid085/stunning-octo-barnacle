@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .navbar {
   display: flex;
   flex-direction: row;
@@ -50,6 +56,8 @@
   justify-content: space-between;
   align-items: center;
   padding: 0;
+  width: 70rem;
+  justify-content: end;
 }
 
 .navbar .links:nth-child(2) {
@@ -80,12 +88,85 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.scroll-area {
+  position: relative;
+  min-height: 100vh;
+}
+
+/* Sections for scrolling */
+.page-section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+/* COUNTER CONTAINER */
+.scroll-counter {
+  position: absolute;
+  top: 0;
+
+  left: 40px;
+  bottom: 0;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  gap: 15px;
+  z-index: 10;
+  pointer-events: none;
+}
+
+/* VERTICAL LINE */
+.scroll-counter .line {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 80%;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(to bottom, transparent, #2EECC5, transparent);
+  z-index: 1;
+}
+
+.step-bullet {
+  width: 17px;
+  height: 38px;
+  border: 2px solid black;
+  border-radius: 9px;
+  outline: #22A98D solid 3px;
+  background: linear-gradient(to bottom, #B5FEEF, #22A98D);
+}
+
+/* NUMBERS */
+.step {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  font-size: 25px;
+  font-style: extra-bold;
+  color: #2EECC5;
+  opacity: 0.5;
+  transition: all 0.3s ease;
+}
+
+/* ACTIVE STEP */
+.step.active {
+  /* margin-bottom: 50px; */
+  opacity: 1;
+  
+}
+
 .hero-section {
   position: relative;
-  height: 100vh;
+  height: 900px;
   width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: end;
   align-items: center;
   background: transparent;
   padding: 0 2rem;
@@ -100,6 +181,7 @@ body {
   gap: 1.5rem;
   width: 50%;
   margin-top: -10rem;
+  margin-left: 7rem;
 }
 
 .hero-title {
@@ -196,12 +278,6 @@ body {
   background: transparent;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 .cards-section {
   background-color: #161617;
   width: 100%;
@@ -216,6 +292,7 @@ body {
   grid-template-columns: repeat(3, 1fr);
   padding: 4rem 2rem;
   gap: 2rem;
+  margin-left: 7rem;
 }
 
 .cards-main {
@@ -228,7 +305,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: start;
-  padding-left: 0;
 }
 
 .cards-main h3 {
@@ -355,7 +431,7 @@ body {
   align-items: center;
   padding: 4rem 2rem;
   gap: 2rem;
-
+  margin-left: 7rem;
   background-color: #161617;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -608,6 +684,8 @@ body {
   gap: 2rem;
   font-family: Arial, Helvetica, sans-serif;
   margin-top: 4rem;
+  position: relative;
+  z-index: 1;
 }
 
 .form-left {
@@ -703,6 +781,8 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: relative;
+  z-index: 1;
 }
 
 .footer .footer-title {
