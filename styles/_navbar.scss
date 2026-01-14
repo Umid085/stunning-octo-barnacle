@@ -1,0 +1,76 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 3rem;
+  background-color: #161617;
+  color: #ffffff;
+  font-family: sans-serif;
+  position: relative;
+}
+.navbar .logos {
+  display: flex;
+  flex-direction: column;
+}
+.navbar #menu-toggle {
+  display: none;
+}
+.navbar .hamburger {
+  width: 30px;
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.navbar .hamburger span {
+  display: block;
+  height: 3px;
+  background: #ffffff;
+  border-radius: 2px;
+}
+
+.navbar .nav-buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  color: white;
+}
+
+.navbar .links {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  gap: 0.5rem;
+  font-size: 16px;
+  margin: 0;
+  background: transparent;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  width: 70rem;
+  justify-content: end;
+}
+
+.navbar .links:nth-child(2) {
+  display: none;
+}
+
+.navbar a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 0.5rem;
+  display: block;
+}
+
+.navbar .order-btn {
+  padding: 0.4rem 1rem;
+  font-size: 1rem;
+  border-radius: 49px;
+  border-color: #2EECC5;
+  color: #ffffff;
+  background-color: rgba(46, 236, 197, 0.1019607843);
+  box-shadow: 0 0 5px #2EECC5, 0 0 10px #2EECC5, 0 0 20px #2EECC5;
+}
