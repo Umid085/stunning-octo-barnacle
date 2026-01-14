@@ -78,92 +78,15 @@
   box-shadow: 0 0 5px #2EECC5, 0 0 10px #2EECC5, 0 0 20px #2EECC5;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  background: #161617;
-}
-
-.scroll-area {
-  position: relative;
-  min-height: 100vh;
-}
-
-/* Sections for scrolling */
-.page-section {
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 3rem;
-}
-
-/* COUNTER CONTAINER */
-.scroll-counter {
-  position: absolute;
-  top: 0;
-  left: 40px;
-  bottom: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-  gap: 15px;
-  z-index: 10;
-  pointer-events: none;
-}
-
-/* VERTICAL LINE */
-.scroll-counter .line {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 80%;
-  width: 2px;
-  height: 100%;
-  background: linear-gradient(to bottom, transparent, #2EECC5, transparent);
-  z-index: 1;
-}
-
-.step-bullet {
-  width: 17px;
-  height: 38px;
-  border: 2px solid black;
-  border-radius: 9px;
-  outline: #22A98D solid 3px;
-  background: linear-gradient(to bottom, #B5FEEF, #22A98D);
-}
-
-/* NUMBERS */
-.step {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 5px;
-  font-size: 25px;
-  font-style: extra-bold;
-  color: #2EECC5;
-  opacity: 0.5;
-  transition: all 0.3s ease;
-}
-
-/* ACTIVE STEP */
-.step.active {
-  /* margin-bottom: 50px; */
-  opacity: 1;
-}
-
 .hero-section {
   position: relative;
-  height: 900px;
+  min-height: 150vh;
   width: 100%;
   display: flex;
   justify-content: end;
   align-items: center;
-  background: transparent;
-  padding: 0 2rem;
+  background: #161617;
+  padding: 2rem;
 }
 
 .hero-left-section {
@@ -273,15 +196,18 @@
   background-color: #161617;
   width: 100%;
   font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding-bottom: 10rem;
 }
 
 .cards-container {
   /* max-width: 1200px; */
-  width: 100%;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  padding: 4rem 2rem;
+  padding: 0 2rem;
   gap: 2rem;
   margin-left: 7rem;
 }
@@ -329,6 +255,7 @@
   color: #ffffff;
   gap: 2rem;
   padding: 2rem;
+  background: transparent;
 }
 
 .cards-content {
@@ -406,16 +333,16 @@
 }
 
 .portfolio {
-  /* max-width: 1200px; */
+  position: relative;
   width: 100%;
-  height: auto;
+  min-height: 400px;
+  box-sizing: border-box;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 4rem 2rem;
   gap: 2rem;
-  margin-left: 7rem;
   background-color: #161617;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -428,6 +355,7 @@
   height: auto;
   gap: 4rem;
   width: 50%;
+  margin-left: 7rem;
   padding: 4rem 0rem;
 }
 
@@ -535,6 +463,82 @@
   border-radius: 50%;
   border: 2px solid #153630;
   background: linear-gradient(to bottom, #323939, #19201F) padding-box, linear-gradient(to bottom, #323939, #303134) border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.scroll-area {
+  position: relative;
+  min-height: 100vh;
+}
+
+/* Sections for scrolling */
+.page-section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+/* COUNTER CONTAINER */
+.scroll-counter {
+  position: absolute;
+  top: 0;
+  left: 40px;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  gap: 15px;
+  z-index: 10;
+  pointer-events: none;
+}
+
+/* VERTICAL LINE */
+.scroll-counter .line {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 80%;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(to bottom, transparent, #2EECC5, transparent);
+  z-index: 1;
+}
+
+.step-bullet {
+  width: 17px;
+  height: 38px;
+  border: 2px solid black;
+  border-radius: 9px;
+  outline: #22A98D solid 3px;
+  background: linear-gradient(to bottom, #B5FEEF, #22A98D);
+}
+
+/* NUMBERS */
+.step {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  font-size: 25px;
+  font-style: extra-bold;
+  color: #2EECC5;
+  opacity: 0.5;
+  transition: all 0.3s ease;
+}
+
+/* ACTIVE STEP */
+.step.active {
+  /* margin-bottom: 50px; */
+  opacity: 1;
 }
 
 .pricing-section {
@@ -653,7 +657,6 @@
   align-items: center;
   gap: 2rem;
   font-family: Arial, Helvetica, sans-serif;
-  margin-top: 4rem;
   position: relative;
   z-index: 1;
 }
@@ -743,6 +746,7 @@
 }
 
 .footer {
+  background: #161617;
   color: #ffffff;
   display: flex;
   flex-direction: column;
