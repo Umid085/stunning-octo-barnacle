@@ -3,6 +3,7 @@
 @import "hero_section";
 @import "cards_section";
 @import "portfolio_section";
+@import "pricing";
 // @import "media";
 
 * {
@@ -83,113 +84,7 @@
   opacity: 1;
 }
 
-.pricing-section {
-  background-color: #161617;
-  width: 100%;
-  height: auto;
-  font-family: Arial, Helvetica, sans-serif;
-}
 
-.pricing-title {
-  font-size: 48px;
-  font-family: Arial, sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  background: linear-gradient(to right, #B5FEEF, #2EECC5);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  gap: 0.5rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-top: 4rem;
-}
-
-.pricing-carousel {
-  width: 100%;
-  height: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 4rem 2rem;
-  gap: 2rem;
-}
-
-.pricing-card {
-  width: 370px;
-  height: 550px;
-  background: linear-gradient(to bottom, #313134, #292929, #282828);
-  border-radius: 36px;
-  padding: 2rem;
-  display: flex;
-  justify-content: space-around;
-  flex-direction: column;
-  align-items: center;
-  gap: 1rem;
-  border: 0.1px solid #ffffff 20%;
-}
-
-.pricing-card h6 {
-  font-size: 32px;
-  font-family: Arial, sans-serif;
-  font-style: bold;
-  font-weight: bold;
-  color: #ffffff;
-}
-
-.pricing-card-content {
-  font-family: Arial, Helvetica, sans-serif;
-  font-style: medium;
-  font-weight: 400;
-  font-size: 17px;
-  color: #ffffff;
-  opacity: 75%;
-  background: transparent;
-  text-align: center;
-  line-height: 154%;
-}
-
-.pricing-card-price {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  gap: 0.5rem;
-  width: 100%;
-}
-
-.price-info {
-  font-family: Arial, Helvetica, sans-serif;
-  font-style: bold;
-  font-weight: 400;
-  font-size: 22px;
-  color: #ffffff;
-  background: transparent;
-}
-
-.price-info-date {
-  font-family: Arial, Helvetica, sans-serif;
-  font-style: medium;
-  font-weight: 400;
-  font-size: 17px;
-  color: #ffffff;
-  opacity: 40%;
-  background: transparent;
-}
-
-.pricing-card-btn {
-  padding: 1rem;
-  font-size: 1rem;
-  border-radius: 41px;
-  border: 1.5px solid #2EECC5;
-  color: #ffffff;
-  background-color: rgba(46, 236, 197, 0.1019607843);
-  text-align: center;
-  text-decoration: none;
-  
-  width: 172px;
-  height: auto;
-}
 
 .form-section {
   width: auto;
