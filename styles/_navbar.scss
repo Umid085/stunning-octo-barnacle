@@ -7,7 +7,11 @@
   background-color: #161617;
   color: #ffffff;
   font-family: sans-serif;
-  position: relative;
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  top: 0;
+  left: 0;
 }
 .navbar .logos {
   display: flex;
