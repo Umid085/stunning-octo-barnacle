@@ -5,19 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Главная Страница</title>
 
-    <!-- Swiper CSS -->
-    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" /> -->
+    <!-- Swiper CSS FIRST -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
     
+    <!-- Your CSS AFTER Swiper -->
     <link rel="stylesheet" href="./styles/style.css">
-    <!-- ... rest of your head content -->
-    <link
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
-
+    
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
-
+    
+    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
@@ -131,46 +130,68 @@
                 <div class="pricing-title">
                     <h2 class="pricing-main-title">Тарифы</h2>
                 </div>
-                <div class="pricing-carousel">
-                    <div class="pricing-card">
-                        <h6 class="pricing-card-title">Сайт “Каталог”</h6>
-                        <p class="pricing-card-content">
-                            Сайт-каталог – это полноценный веб-ресурс, в котором потребители могут ознакомиться с товарами или услугами компании. Являясь удобным инструментом продаж, сайт-каталог может повысить доходность бизнеса и упростить задачу по предоставлению ассортимента целевой аудитории.
-                        </p>
-                        <div class="pricing-card-price">
-                            <div class="pricing-card-info">
-                                <p class="price-info">От 60.000₽</p>
-                                <p class="price-info-date">От 15 дней</p>
+            
+                <!-- Swiper Container -->
+                <div class="swiper pricing-swiper">
+                    <div class="swiper-wrapper">
+                        <!-- Slide 1 -->
+                        <div class="swiper-slide">
+                            <div class="pricing-card">
+                                <h6 class="pricing-card-title">Сайт "Каталог"</h6>
+                                <p class="pricing-card-content">
+                                    Сайт-каталог – это полноценный веб-ресурс, в котором потребители могут ознакомиться с товарами или услугами компании. Являясь удобным инструментом продаж, сайт-каталог может повысить доходность бизнеса и упростить задачу по предоставлению ассортимента целевой аудитории.
+                                </p>
+                                <div class="pricing-card-price">
+                                    <div class="pricing-card-info">
+                                        <p class="price-info">От 60.000₽</p>
+                                        <p class="price-info-date">От 15 дней</p>
+                                    </div>
+                                    <a href="#" class="pricing-card-btn">Подробнее ></a>
+                                </div>
                             </div>
-                            <a href="#" class="pricing-card-btn">Подробнее ></a>
+                        </div>
+                    
+                        <!-- Slide 2 -->
+                        <div class="swiper-slide">
+                            <div class="pricing-card">
+                                <h6 class="pricing-card-title">Сайт "Визитка"</h6>
+                                <p class="pricing-card-content">
+                                    Сайт-визитка - компактный веб-ресурс – отличный старт бизнеса в интернете. Сайт-визитка содержит несколько страниц, в том числе – информацию о компании, её товарах и услугах, прейскурант цен, контакты и координаты для связи.
+                                </p>
+                                <div class="pricing-card-price">
+                                    <div class="pricing-card-info">
+                                        <p class="price-info">От 30.000₽</p>
+                                        <p class="price-info-date">От 5 дней</p>
+                                    </div>
+                                    <a href="#" class="pricing-card-btn">Подробнее ></a>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <!-- Slide 3 -->
+                        <div class="swiper-slide">
+                            <div class="pricing-card">
+                                <h6 class="pricing-card-title">Интернет-магазин</h6>
+                                <p class="pricing-card-content">
+                                    Интернет-магазин - полнофункциональная платформа для онлайн-торговли. Включает каталог товаров, корзину, систему оплаты, личный кабинет пользователя и административную панель для управления заказами.
+                                </p>
+                                <div class="pricing-card-price">
+                                    <div class="pricing-card-info">
+                                        <p class="price-info">От 100.000₽</p>
+                                        <p class="price-info-date">От 30 дней</p>
+                                    </div>
+                                    <a href="#" class="pricing-card-btn">Подробнее ></a>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="pricing-card">
-                        <h6 class="pricing-card-title">Сайт “Визитка”</h6>
-                        <p class="pricing-card-content">
-                            Сайт-визитка - компактный веб-ресурс – отличный старт бизнеса в интернете. Сайт-визитка содержит несколько страниц, в том числе – информацию о компании, её товарах и услугах, прейскурант цен, контакты и координаты для связи.
-                        </p>
-                        <div class="pricing-card-price">
-                            <div class="pricing-card-info">
-                                <p class="price-info">От 30.000₽</p>
-                                <p class="price-info-date">От 5 дней</p>
-                            </div>
-                            <a href="#" class="pricing-card-btn">Подробнее ></a>
-                        </div>
-                    </div>
-                    <div class="pricing-card">
-                        <h6 class="pricing-card-title">Сайт “Визитка”</h6>
-                        <p class="pricing-card-content">
-                            Сайт-визитка - компактный веб-ресурс – отличный старт бизнеса в интернете. Сайт-визитка содержит несколько страниц, в том числе – информацию о компании, её товарах и услугах, прейскурант цен, контакты и координаты для связи.
-                        </p>
-                        <div class="pricing-card-price">
-                            <div class="pricing-card-info">
-                                <p class="price-info">От 30.000₽</p>
-                                <p class="price-info-date">От 5 дней</p>
-                            </div>
-                            <a href="#" class="pricing-card-btn">Подробнее ></a>
-                        </div>
-                    </div>
+                
+                    <!-- Navigation buttons - KEEP THEM EMPTY -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                
+                    <!-- Pagination -->
+                    <div class="swiper-pagination"></div>
                 </div>
             </div>
         </section>
@@ -226,7 +247,8 @@
         <p class="footer-disclaimer">Политика сайта и обработка персональных данных</p>
     </footer>
 
-    <script src="./scripts/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="./scripts/script.js"></script>
+    
 </body>
 </html>

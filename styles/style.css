@@ -483,6 +483,7 @@
   font-style: normal;
   font-weight: bold;
   background: linear-gradient(to right, #B5FEEF, #2EECC5);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   gap: 0.5rem;
@@ -492,14 +493,19 @@
   padding-top: 4rem;
 }
 
-.pricing-carousel {
+.pricing-swiper {
   width: 100%;
-  height: auto;
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 4rem 6rem;
+  position: relative;
+}
+
+.swiper-slide {
   display: flex;
   justify-content: center;
-  align-items: center;
-  padding: 4rem 2rem;
-  gap: 2rem;
+  align-items: stretch;
+  height: auto;
 }
 
 .pricing-card {
@@ -513,7 +519,7 @@
   flex-direction: column;
   align-items: center;
   gap: 1rem;
-  border: 0.1px solid #ffffff 20%;
+  border: 0.1px solid rgba(255, 255, 255, 0.2);
 }
 
 .pricing-card h6 {
@@ -575,8 +581,72 @@
   text-decoration: none;
   width: 172px;
   height: auto;
+  transition: all 0.3s ease;
+}
+.pricing-card-btn:hover {
+  background-color: rgba(46, 236, 197, 0.2);
+  box-shadow: 0 0 10px #2EECC5;
 }
 
+.pricing-swiper .swiper-button-next,
+.pricing-swiper .swiper-button-prev {
+  color: #2EECC5 !important;
+  background-color: rgba(22, 22, 23, 0.95) !important;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 3px solid #2EECC5;
+  box-shadow: 0 0 20px rgba(46, 236, 197, 0.6);
+  transition: all 0.3s ease;
+}
+.pricing-swiper .swiper-button-next:after,
+.pricing-swiper .swiper-button-prev:after {
+  font-size: 22px;
+  font-weight: bold;
+}
+.pricing-swiper .swiper-button-next:hover,
+.pricing-swiper .swiper-button-prev:hover {
+  background-color: #2EECC5 !important;
+  color: #161617 !important;
+  box-shadow: 0 0 30px #2EECC5;
+  transform: scale(1.1);
+}
+
+.pricing-swiper .swiper-button-next {
+  right: 0;
+}
+
+.pricing-swiper .swiper-button-prev {
+  left: 0;
+}
+
+.pricing-swiper .swiper-pagination-bullet {
+  background: #ffffff;
+  opacity: 0.5;
+  width: 12px;
+  height: 12px;
+}
+
+.pricing-swiper .swiper-pagination-bullet-active {
+  background: #2EECC5;
+  opacity: 1;
+  box-shadow: 0 0 10px #2EECC5;
+}
+
+@media (max-width: 768px) {
+  .pricing-swiper {
+    padding: 4rem 3rem;
+  }
+  .pricing-swiper .swiper-button-next,
+  .pricing-swiper .swiper-button-prev {
+    width: 45px;
+    height: 45px;
+  }
+  .pricing-swiper .swiper-button-next:after,
+  .pricing-swiper .swiper-button-prev:after {
+    font-size: 18px;
+  }
+}
 .form-section {
   width: auto;
   height: 458px;
