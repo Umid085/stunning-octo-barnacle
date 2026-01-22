@@ -13,16 +13,13 @@
   top: 0;
   left: 0;
 }
-
 .navbar .logos {
   display: flex;
   flex-direction: column;
 }
-
 .navbar #menu-toggle {
   display: none;
 }
-
 .navbar .hamburger {
   width: 30px;
   display: none;
@@ -30,14 +27,12 @@
   gap: 5px;
   cursor: pointer;
 }
-
 .navbar .hamburger span {
   display: block;
   height: 3px;
   background: #ffffff;
   border-radius: 2px;
 }
-
 .navbar .nav-buttons {
   display: flex;
   flex-direction: row;
@@ -45,7 +40,6 @@
   gap: 1rem;
   color: white;
 }
-
 .navbar .links {
   display: flex;
   flex-direction: row;
@@ -60,18 +54,15 @@
   width: 70rem;
   justify-content: end;
 }
-
 .navbar .links:nth-child(2) {
   display: none;
 }
-
 .navbar a {
   color: #ffffff;
   text-decoration: none;
   padding: 0.5rem;
   display: block;
 }
-
 .navbar .order-btn {
   padding: 0.4rem 1rem;
   font-size: 1rem;
@@ -429,7 +420,6 @@
   z-index: 2;
   border: solid 2px #2EECC5 20%;
 }
-
 .carousel-item img {
   width: 100%;
   height: 100%;
@@ -452,7 +442,6 @@
   pointer-events: none;
   z-index: 9;
 }
-
 .carousel-buttons button {
   pointer-events: auto;
   cursor: pointer;
@@ -688,13 +677,6 @@
   justify-content: center;
   align-items: center;
 }
-
-.form-group {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-}
-
 .form-forms p {
   font-family: Arial, Helvetica, sans-serif;
   font-style: medium;
@@ -707,7 +689,6 @@
   padding-left: 0;
   text-align: left;
 }
-
 .form-forms input {
   width: 437px;
   height: 50px;
@@ -718,6 +699,12 @@
   border: solid 1.5px white;
   color: #00644F;
   opacity: 20%;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 }
 
 .send-btn {
