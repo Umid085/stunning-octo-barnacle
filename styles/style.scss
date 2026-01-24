@@ -6,16 +6,12 @@
 @import "pricing";
 @import "form_section";
 @import "footer_section";
-// @import "media";
+@import "media";
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-body {
-  padding-top: 120px; // Add this to account for fixed navbar height
 }
 
 .scroll-area {
