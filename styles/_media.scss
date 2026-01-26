@@ -144,8 +144,58 @@
   }
 
   .hero-section {
-    flex-direction: column;
+    flex-direction: row;
     padding: 2rem 1rem;
     min-height: auto;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+
+    .hero-left-section {
+      display: flex;
+      flex-direction: column;
+      
+      margin-left: 0;
+    }
+
+    .hero-title {
+      font-size: 27px;
+    }
+
+    .hero-subtitle {
+      font-size: 13px;
+    }
+
+    .hero-title-bottom {
+      display: none !important;
+    }
+
+    .hero-p {
+      display: none !important;
+    }
+
+    .hero-text-break {
+      display: none !important;
+    }
+  }
+
+  .cards-section{
+    display: none !important;
+  }
+
+  .portfolio {
+    display: none !important;
+  }
+
+  .pricing-section {
+    display: none !important;
+  }
+
+  .form-section {
+    display: none !important;
+  }
+
+  .footer {
+    display: none !important;
   }
 }
