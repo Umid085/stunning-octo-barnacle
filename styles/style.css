@@ -128,6 +128,10 @@
   background: transparent;
 }
 
+.hero-subtitle-mobile-text {
+  display: none !important;
+}
+
 .hero-more {
   display: flex;
   flex-direction: row;
@@ -984,23 +988,25 @@
     width: 100%;
   }
   .hero-section {
+    display: flex;
     flex-direction: row;
     padding: 2rem 1rem;
-    min-height: auto;
     position: relative;
-    display: flex;
     flex-direction: row;
   }
   .hero-section .hero-left-section {
     display: flex;
     flex-direction: column;
     margin-left: 0;
+    position: relative;
+    justify-content: flex-start;
+    top: 10%;
   }
   .hero-section .hero-title {
     font-size: 27px;
   }
   .hero-section .hero-subtitle {
-    font-size: 13px;
+    display: none !important;
   }
   .hero-section .hero-title-bottom {
     display: none !important;
@@ -1008,8 +1014,34 @@
   .hero-section .hero-p {
     display: none !important;
   }
-  .hero-section .hero-text-break {
-    display: none !important;
+  .hero-section .hero-subtitle-mobile-text {
+    display: flex !important;
+    font-family: Arial, sans-serif;
+    font-style: medium;
+    font-weight: 400;
+    font-size: 13px;
+    color: #ffffff;
+    opacity: 65%;
+    background: transparent;
+  }
+  .hero-section .hero-btn {
+    padding: 1rem 1rem;
+    font-family: Arial, sans-serif;
+    font-style: medium;
+    font-weight: 400;
+    font-size: 13px;
+  }
+  .hero-section .hero-right-section {
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    z-index: 1;
+  }
+  .hero-section .bg-circle {
+    position: absolute;
+    overflow: hidden !important;
+    top: 0;
+    left: 0;
   }
   .cards-section {
     display: none !important;

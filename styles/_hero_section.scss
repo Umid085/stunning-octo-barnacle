@@ -55,6 +55,11 @@ $border-color_1: #2EECC5;
 	opacity: 65%;
 	background: transparent;
 }
+
+.hero-subtitle-mobile-text {
+	display: none !important;
+}
+
 .hero-more {
 	display: flex;
 	flex-direction: row;

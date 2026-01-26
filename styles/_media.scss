@@ -144,11 +144,11 @@
   }
 
   .hero-section {
+    display: flex;
     flex-direction: row;
     padding: 2rem 1rem;
-    min-height: auto;
     position: relative;
-    display: flex;
+    
     flex-direction: row;
 
     .hero-left-section {
@@ -156,6 +156,10 @@
       flex-direction: column;
       
       margin-left: 0;
+      position: relative;
+
+      justify-content: flex-start;
+      top: 10%;
     }
 
     .hero-title {
@@ -163,7 +167,7 @@
     }
 
     .hero-subtitle {
-      font-size: 13px;
+      display: none !important;
     }
 
     .hero-title-bottom {
@@ -174,8 +178,37 @@
       display: none !important;
     }
 
-    .hero-text-break {
-      display: none !important;
+    .hero-subtitle-mobile-text {
+      display: flex !important;
+      font-family: $font-family_2;
+      font-style: medium;
+      font-weight: 400;
+      font-size: 13px;
+      color: $color_1;
+      opacity: 65%;
+      background: transparent;
+    }
+    
+    .hero-btn {
+      padding: 1rem 1rem;
+      font-family: $font-family_2;
+      font-style: medium;
+      font-weight: 400;
+      font-size: 13px;
+    }
+
+    .hero-right-section {
+      position: relative;
+      width: 100%;
+      height: 50vh;
+      z-index: 1;
+    }
+
+    .bg-circle {
+      position: absolute;
+      overflow: hidden !important;
+      top: 0;
+      left: 0;
     }
   }
 
