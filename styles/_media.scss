@@ -148,12 +148,12 @@
   }
 
   .hero-section {
-    display: flex;
-    flex-direction: row;
+    display: flex !important;
     padding: 2rem 1rem;
     position: relative;
     
     flex-direction: row;
+    height: auto !important;
 
     .hero-left-section {
       display: flex;
@@ -302,7 +302,25 @@
   }
 
   .portfolio {
-    display: none !important;
+    flex-direction: column;
+    
+
+
+    .portfolio-left-content {
+      text-align: center;
+      margin-left: 0;
+      width: 100%;
+      height: auto;
+      align-items: center;
+    }
+
+    .portfolio-right-slider {
+      align-items: center;
+
+      .carousel {
+        width: 100%;
+      }
+    }
   }
 
   .pricing-section {

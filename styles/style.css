@@ -75,7 +75,7 @@
 
 .hero-section {
   position: relative;
-  min-height: 150vh;
+  min-height: 120vh;
   width: 100%;
   display: flex;
   justify-content: end;
@@ -986,11 +986,11 @@
     width: 100%;
   }
   .hero-section {
-    display: flex;
-    flex-direction: row;
+    display: flex !important;
     padding: 2rem 1rem;
     position: relative;
     flex-direction: row;
+    height: auto !important;
   }
   .hero-section .hero-left-section {
     display: flex;
@@ -1114,7 +1114,20 @@
     display: none !important;
   }
   .portfolio {
-    display: none !important;
+    flex-direction: column;
+  }
+  .portfolio .portfolio-left-content {
+    text-align: center;
+    margin-left: 0;
+    width: 100%;
+    height: auto;
+    align-items: center;
+  }
+  .portfolio .portfolio-right-slider {
+    align-items: center;
+  }
+  .portfolio .portfolio-right-slider .carousel {
+    width: 100%;
   }
   .pricing-section {
     display: none !important;
