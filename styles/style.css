@@ -192,16 +192,12 @@
 
 .cards-section {
   background-color: #161617;
-  width: 100%;
   font-family: Arial, Helvetica, sans-serif;
   position: relative;
   width: 100%;
-  height: auto;
-  padding-bottom: 10rem;
 }
 
 .cards-container {
-  /* max-width: 1200px; */
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -258,8 +254,7 @@
 
 .cards-content {
   font-family: Arial, Helvetica, sans-serif;
-  font-style: medium;
-  font-weight: 400;
+  font-weight: normal;
   font-size: 24px;
   color: #ffffff;
   opacity: 90%;
@@ -882,6 +877,9 @@
     display: none !important;
     position: relative;
   }
+  .page-section {
+    height: auto !important;
+  }
   .navbar {
     flex-direction: row-reverse;
     align-items: center;
@@ -1008,6 +1006,9 @@
   .hero-section .hero-subtitle {
     display: none !important;
   }
+  .hero-section .hero-image {
+    width: 70vh;
+  }
   .hero-section .hero-title-bottom {
     display: none !important;
   }
@@ -1044,6 +1045,72 @@
     left: 0;
   }
   .cards-section {
+    position: relative;
+    display: flex !important;
+    flex-direction: column;
+    padding: 2rem 1rem;
+    padding-bottom: 0rem;
+    width: 100%;
+  }
+  .cards-section .cards-container {
+    display: flex !important;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    margin-left: 0;
+    gap: 1.5rem;
+    width: 100%;
+    height: auto;
+  }
+  .cards-section .cards-prices,
+  .cards-section .cards-deadline,
+  .cards-section .cards-team,
+  .cards-section .cards-consultation {
+    width: 90%;
+    height: 500px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+    padding: 1rem;
+  }
+  .cards-section .cards-main {
+    height: auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  .cards-section .cards-main h3 {
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    padding: 0;
+  }
+  .cards-section .cards-main .cards-content:nth-child(2) {
+    display: none !important;
+  }
+  .cards-section .cards-main p {
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+  }
+  .cards-section .cards-main .cards-btn {
+    margin: 0;
+  }
+  .cards-section .cards-title {
+    width: 100%;
+    padding: 1rem;
+    text-align: left;
+    font-weight: bolder;
+  }
+  .cards-section .cards-content {
+    margin-left: 0 !important;
+    padding-left: 0;
+    padding: 1rem;
+  }
+  .cards-section .cards-content:nth-child(1) {
     display: none !important;
   }
   .portfolio {

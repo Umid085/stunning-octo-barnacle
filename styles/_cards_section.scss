@@ -2,16 +2,12 @@
 
 .cards-section {
   background-color: $dark;
-  width: 100%;
   font-family: Arial, Helvetica, sans-serif;
   position: relative;
   width: 100%;
-  height: auto;
-  padding-bottom: 10rem;
 }
 
 .cards-container {
-  /* max-width: 1200px; */
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -69,8 +65,7 @@
 
 .cards-content {
   font-family: Arial, Helvetica, sans-serif;
-  font-style: medium;
-  font-weight: 400;
+  font-weight: normal;
   font-size: 24px;
   color: #ffffff;
   opacity: 90%;
