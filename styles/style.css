@@ -397,7 +397,7 @@
 .carousel {
   width: 80%;
   max-width: 600px;
-  overflow: visible;
+  overflow: hidden;
   border-radius: 10px;
   position: relative;
 }
