@@ -75,7 +75,7 @@
 
 .hero-section {
   position: relative;
-  min-height: 120vh;
+  min-height: 140vh;
   width: 100%;
   display: flex;
   justify-content: end;
@@ -397,7 +397,7 @@
 .carousel {
   width: 80%;
   max-width: 600px;
-  overflow: hidden;
+  overflow: visible;
   border-radius: 10px;
   position: relative;
 }
@@ -439,7 +439,7 @@
   justify-content: space-between;
   transform: translateY(-50%);
   pointer-events: none;
-  z-index: 9;
+  z-index: 99;
 }
 .carousel-buttons button {
   pointer-events: auto;
@@ -1128,6 +1128,15 @@
   }
   .portfolio .portfolio-right-slider .carousel {
     width: 100%;
+  }
+  .portfolio .portfolio-right-slider .carousel-track {
+    height: 350px;
+  }
+  .portfolio .portfolio-right-slider .carousel-buttons {
+    top: 110%;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
   }
   .pricing-section {
     display: none !important;

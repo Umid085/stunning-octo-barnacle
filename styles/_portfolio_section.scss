@@ -8,7 +8,6 @@ $border-color_1: #2EECC5;
 
 @import "colors";
 .portfolio {
-	// max-width: 1200px;
 	position: relative;
 	width: 100%;
 	min-height: 400px;
@@ -74,7 +73,7 @@ $border-color_1: #2EECC5;
 .carousel {
 	width: 80%;
 	max-width: 600px;
-	overflow: hidden;
+	overflow: visible;
 	border-radius: 10px;
 	position: relative;
 }
@@ -112,7 +111,7 @@ $border-color_1: #2EECC5;
 	justify-content: space-between;
 	transform: translateY(-50%);
 	pointer-events: none;
-	z-index: 9;
+	z-index: 99;
 	button {
 		pointer-events: auto;
 		cursor: pointer;

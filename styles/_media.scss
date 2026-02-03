@@ -320,6 +320,17 @@
       .carousel {
         width: 100%;
       }
+
+      .carousel-track {
+        height: 350px;
+      }
+
+      .carousel-buttons {
+        top: 110%;
+        position: relative;
+        display: flex;
+        justify-content: space-evenly;
+      }
     }
   }
 
