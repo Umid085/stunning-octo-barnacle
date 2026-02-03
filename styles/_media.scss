@@ -339,7 +339,64 @@
   }
 
   .form-section {
-    display: none !important;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+
+    .form-left{
+      gap: 0;
+      width: 100%;
+    }
+
+    .form-title {
+      width: 100%;
+      text-align: center;
+      padding: 2rem;
+      font-size: 57px;
+    }
+
+    .form-forms {
+      flex-direction: column;
+      gap: 0;
+      width: 90%;
+      align-items: center;
+    
+
+      div {
+        width: 100%;
+        align-items: center;
+      }
+
+      p {
+        font-size: 32px;
+      }
+
+      input {
+        width: 100%;
+        height: 6rem;
+        gap: 0;
+        align-items: center;
+      }
+    }
+
+    .send-btn {
+      height: 92px;
+      width: 214px;
+      padding: 0 2rem;
+      font-size: 2rem;
+    }
+
+    .form-group {
+      display: flex;
+      align-items: center;
+    }
+
+    .form-right {
+      img {
+        display: none;
+      }
+    }
   }
 
   .footer {

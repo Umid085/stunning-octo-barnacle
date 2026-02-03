@@ -1142,7 +1142,52 @@
     display: none !important;
   }
   .form-section {
-    display: none !important;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+  }
+  .form-section .form-left {
+    gap: 0;
+    width: 100%;
+  }
+  .form-section .form-title {
+    width: 100%;
+    text-align: center;
+    padding: 2rem;
+    font-size: 57px;
+  }
+  .form-section .form-forms {
+    flex-direction: column;
+    gap: 0;
+    width: 90%;
+    align-items: center;
+  }
+  .form-section .form-forms div {
+    width: 100%;
+    align-items: center;
+  }
+  .form-section .form-forms p {
+    font-size: 32px;
+  }
+  .form-section .form-forms input {
+    width: 100%;
+    height: 6rem;
+    gap: 0;
+    align-items: center;
+  }
+  .form-section .send-btn {
+    height: 92px;
+    width: 214px;
+    padding: 0 2rem;
+    font-size: 2rem;
+  }
+  .form-section .form-group {
+    display: flex;
+    align-items: center;
+  }
+  .form-section .form-right img {
+    display: none;
   }
   .footer {
     display: none !important;
