@@ -1190,7 +1190,14 @@
     display: none;
   }
   .footer {
-    display: none !important;
+    display: flex;
+  }
+  .footer .footer-title {
+    display: none;
+  }
+  .footer .footer-icons {
+    width: 100%;
+    background-color: linear-gradient(to right, green yellow);
   }
 }
 * {

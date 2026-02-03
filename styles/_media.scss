@@ -400,6 +400,15 @@
   }
 
   .footer {
-    display: none !important;
+    display: flex;
+
+    .footer-title {
+      display: none;
+    }
+
+    .footer-icons {
+      width: 100%;
+      background-color: linear-gradient(to right, green yellow);
+    }
   }
 }
