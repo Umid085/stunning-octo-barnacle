@@ -6,7 +6,7 @@ $background-color_1: rgba(46, 236, 197, 0.1019607843);
 
 .form-section {
 	width: auto;
-	height: 458px;
+	min-height: 458px;
 	background: linear-gradient(to right, #313134, #222224, #12473C, #292929);
 	display: flex;
 	justify-content: center;

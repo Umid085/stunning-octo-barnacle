@@ -7,13 +7,14 @@ $border-color_1: #2EECC5;
 @import "colors";
 .hero-section {
 	position: relative;
-	min-height: 140vh;
+	min-height: 140vh !important;
 	width: 100%;
 	display: flex;
 	justify-content: end;
 	align-items: center;
 	background: $dark;
 	padding: 2rem;
+
 }
 .hero-left-section {
 	display: flex;
@@ -107,7 +108,7 @@ $border-color_1: #2EECC5;
 }
 .hero-image {
 	position: absolute;
-	width: 80vh;
+	width: 70vh;
 	height: auto;
 	z-index: 2;
 	background: transparent;

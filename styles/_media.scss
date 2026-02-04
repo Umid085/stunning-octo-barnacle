@@ -83,6 +83,7 @@
     width: 100%;
 
     background: none;
+    background-clip: unset;
     -webkit-background-clip: unset;
     -webkit-text-fill-color: unset;
 
@@ -131,6 +132,7 @@
     padding: 1rem 0;
 
     background: linear-gradient(to right, #B5FEEF, #2EECC5);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
@@ -245,7 +247,7 @@
     .cards-team,
     .cards-consultation {
       width: 90%;
-      height: 500px;
+      min-height: 500px;
       border-radius: 8px;
       display: flex;
       flex-direction: column;

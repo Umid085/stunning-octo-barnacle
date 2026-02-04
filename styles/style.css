@@ -75,7 +75,7 @@
 
 .hero-section {
   position: relative;
-  min-height: 140vh;
+  min-height: 140vh !important;
   width: 100%;
   display: flex;
   justify-content: end;
@@ -184,7 +184,7 @@
 
 .hero-image {
   position: absolute;
-  width: 80vh;
+  width: 70vh;
   height: auto;
   z-index: 2;
   background: transparent;
@@ -283,7 +283,7 @@
 .cards-prices {
   position: relative;
   width: 100%;
-  height: 400px;
+  min-height: 400px;
   background: linear-gradient(to bottom, #527791, #325597, #193895);
   border-radius: 4px;
   filter: drop-shadow(0px 0px 150px rgba(59, 95, 150, 0.3490196078));
@@ -298,7 +298,7 @@
 .cards-deadline {
   position: relative;
   width: 100%;
-  height: 400px;
+  min-height: 400px;
   gap: 1rem;
   border: solid rgb(94, 94, 94) 0.5px;
   border-radius: 4px;
@@ -308,7 +308,7 @@
 .cards-team {
   position: relative;
   width: 100%;
-  height: 400px;
+  min-height: 400px;
   gap: 1rem;
   border-radius: 4px;
   border: solid rgb(94, 94, 94) 0.5px;
@@ -318,7 +318,7 @@
 .cards-consultation {
   position: relative;
   width: 100%;
-  height: 400px;
+  min-height: 400px;
   gap: 1rem;
   border-radius: 4px;
   border: solid rgb(94, 94, 94) 0.5px;
@@ -637,7 +637,7 @@
 }
 .form-section {
   width: auto;
-  height: 458px;
+  min-height: 458px;
   background: linear-gradient(to right, #313134, #222224, #12473C, #292929);
   display: flex;
   justify-content: center;
@@ -740,7 +740,6 @@
   position: relative;
   z-index: 1;
 }
-
 .footer .footer-title {
   display: flex;
   align-items: center;
@@ -750,7 +749,6 @@
   font-size: 96px;
   padding: 4rem;
 }
-
 .footer .footer-icons {
   display: flex;
   align-items: center;
@@ -759,7 +757,6 @@
   width: 50%;
   padding: 2rem;
 }
-
 .footer .footer-icons a {
   background-color: #ffffff;
   border-radius: 50%;
@@ -772,7 +769,6 @@
   border: solid 5px #161617;
   outline: solid 1px grey;
 }
-
 .footer .footer-icons a i {
   display: flex;
   justify-content: center;
@@ -781,15 +777,13 @@
   background: transparent;
   font-size: 2rem;
 }
-
 .footer .footer-icons a:hover {
   background-color: radial-gradient(to center, #2EECC5, #00644F);
   transform: scale(1.2);
   transition: 1s;
   background-color: #2EECC5;
 }
-
-.footer .footer-date-info {
+.footer .footer .footer-date-info {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -798,8 +792,7 @@
   font-style: regular;
   margin-top: 20px;
 }
-
-.footer .footer-disclaimer {
+.footer .footer .footer-disclaimer {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -807,14 +800,13 @@
   font-size: 13px;
   opacity: 40%;
 }
-
-.footer {
+.footer .footer {
   color: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.footer .footer-title {
+.footer .footer .footer-title {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -822,13 +814,13 @@
   font-style: bold;
   font-size: 96px;
 }
-.footer .footer-icons {
+.footer .footer .footer-icons {
   display: flex;
   align-items: center;
   justify-content: space-around;
   color: transparent;
 }
-.footer .footer-icons a {
+.footer .footer .footer-icons a {
   background-color: #ffffff;
   border-radius: 50%;
   width: 90px;
@@ -838,7 +830,7 @@
   align-items: center;
   text-decoration: none;
 }
-.footer .footer-icons a i {
+.footer .footer .footer-icons a i {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -846,12 +838,12 @@
   background: transparent;
   font-size: 2rem;
 }
-.footer .footer-icons a .footer-icons a:hover {
+.footer .footer .footer-icons a .footer-icons a:hover {
   box-shadow: 0 0 0 4px #ffffff;
   transform: scale(1.05);
   transition: 0.2s;
 }
-.footer .footer-date-info {
+.footer .footer .footer-date-info {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -860,7 +852,7 @@
   font-style: regular;
   margin-top: 20px;
 }
-.footer .footer-disclaimer {
+.footer .footer .footer-disclaimer {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -938,6 +930,7 @@
     display: block;
     width: 100%;
     background: none;
+    background-clip: unset;
     -webkit-background-clip: unset;
     -webkit-text-fill-color: unset;
     transition: all 0.3s ease; /* smooth hover effect */
@@ -972,6 +965,7 @@
     font-weight: 600;
     padding: 1rem 0;
     background: linear-gradient(to right, #B5FEEF, #2EECC5);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
@@ -1067,7 +1061,7 @@
   .cards-section .cards-team,
   .cards-section .cards-consultation {
     width: 90%;
-    height: 500px;
+    min-height: 500px;
     border-radius: 8px;
     display: flex;
     flex-direction: column;
@@ -1213,7 +1207,7 @@
 
 /* Sections for scrolling */
 .page-section {
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
