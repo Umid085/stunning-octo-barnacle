@@ -6,7 +6,7 @@ $background-color_1: rgba(46, 236, 197, 0.1019607843);
 
 .form-section {
 	width: auto;
-	min-height: 458px;
+	height: 458px;
 	background: linear-gradient(to right, #313134, #222224, #12473C, #292929);
 	display: flex;
 	justify-content: center;
@@ -92,5 +92,7 @@ $background-color_1: rgba(46, 236, 197, 0.1019607843);
 		top: 1%;
 		background: transparent;
 		padding-top: 1rem;
+		width: 20rem;
+		height: auto;
 	}
 }
