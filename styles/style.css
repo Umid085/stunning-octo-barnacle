@@ -195,6 +195,10 @@
   font-family: Arial, Helvetica, sans-serif;
   position: relative;
   width: 100%;
+  background-image: url("../images/why_bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .cards-container {
@@ -337,6 +341,10 @@
   padding: 4rem 2rem;
   gap: 2rem;
   background-color: #161617;
+  background-image: url("../images/portfolio_bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   font-family: Arial, Helvetica, sans-serif;
 }
 
