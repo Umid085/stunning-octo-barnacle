@@ -77,14 +77,23 @@ $border-color_1: #2EECC5;
 .carousel {
 	width: 80%;
 	max-width: 600px;
-	overflow: hidden;
+	overflow: visible;
 	border-radius: 10px;
 	position: relative;
 }
+
+.carousel-track-container {
+    overflow: hidden; /* This acts as the "window" for your images */
+    border-radius: 10px;
+    width: 100%;
+}
+
 .carousel-track {
 	display: flex;
 	transition: transform 0.5s ease-in-out;
 	z-index: 2;
+	position: relative;
+	overflow: visible;
 }
 .carousel-item {
 	min-width: 100%;
@@ -106,14 +115,14 @@ $border-color_1: #2EECC5;
 	}
 }
 .carousel-buttons {
-	position: absolute;
+	position: absolute !important;
 	top: 50%;
-	left: 0;
+	left: 50%;
 	right: 0;
-	width: 100%;
+	width: 110%;
 	display: flex;
 	justify-content: space-between;
-	transform: translateY(-50%);
+	transform: translate(-50%, -50%);
 	pointer-events: none;
 	z-index: 99;
 	button {
