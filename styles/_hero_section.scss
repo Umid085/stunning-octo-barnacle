@@ -14,6 +14,10 @@ $border-color_1: #2EECC5;
 	align-items: center;
 	background: $dark;
 	padding: 2rem;
+	background-image: url('../images/hero_bg.jpeg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 
 }
 .hero-left-section {
