@@ -7,6 +7,7 @@
   font-family: Arial, Helvetica, sans-serif;
   position: relative;
   padding-bottom: 10rem;
+  overflow-x: hidden;
 }
 
 .pricing-title {
@@ -32,6 +33,7 @@
   margin: 0 auto;
   padding: 4rem 6rem; // Increased padding to make room for buttons
   position: relative;
+  overflow: visible !important;
 }
 
 .swiper-slide {
@@ -42,7 +44,8 @@
 }
 
 .pricing-card {
-  width: 370px;
+  width: 100%;
+  max-width: 400px;
   height: 550px;
   background: linear-gradient(to bottom, #313134, #292929, #282828);
   border-radius: 36px;
@@ -53,6 +56,7 @@
   align-items: center;
   gap: 1rem;
   border: 0.1px solid rgba(255, 255, 255, 0.2);
+  margin: 0;
 }
 
 .pricing-card h6 {
@@ -133,6 +137,18 @@
   border: 3px solid #2EECC5;
   box-shadow: 0 0 20px rgba(46, 236, 197, 0.6);
   transition: all 0.3s ease;
+  z-index: 999 !important;
+  position: absolute;
+  top: 50% !important;
+  transform: translateY(-50%);
+
+  .pricing-swiper .swiper-button-prev {
+  left: 50px !important; /* Move it slightly away from the very edge */
+  }
+
+  .pricing-swiper .swiper-button-next {
+  right: 20px !important; /* Move it slightly away from the very edge */
+  }
   
   &:after {
     font-size: 22px;
@@ -167,21 +183,15 @@
   background: #2EECC5;
   opacity: 1;
   box-shadow: 0 0 10px #2EECC5;
-}
 
-// Responsive adjustments
-@media (max-width: 768px) {
-  .pricing-swiper {
-    padding: 4rem 3rem;
-  }
-  
-  .pricing-swiper .swiper-button-next,
-  .pricing-swiper .swiper-button-prev {
-    width: 45px;
-    height: 45px;
-    
-    &:after {
-      font-size: 18px;
-    }
-  }
+  .swiper-button-next, .swiper-button-prev {
+    background: red !important;
+    width: 50px !important;
+    height: 50px !important;
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    z-index: 9999 !important;
+    position: absolute !important;
+}
 }
