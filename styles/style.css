@@ -503,12 +503,11 @@
 }
 
 .pricing-swiper {
-  width: 100%;
-  max-width: 1500px;
-  margin: 0 auto;
+  width: 90%;
+  max-width: 1300px;
   padding: 4rem 6rem;
   position: relative;
-  overflow: visible !important;
+  overflow: hidden;
 }
 
 .swiper-slide {
@@ -520,8 +519,8 @@
 
 .pricing-card {
   width: 100%;
-  max-width: 400px;
-  height: 550px;
+  max-width: 700px;
+  height: auto;
   background: linear-gradient(to bottom, #313134, #292929, #282828);
   border-radius: 36px;
   padding: 2rem;
@@ -602,18 +601,18 @@
 
 .pricing-swiper .swiper-button-next,
 .pricing-swiper .swiper-button-prev {
-  color: #2EECC5 !important;
-  background-color: rgba(22, 22, 23, 0.95) !important;
-  width: 60px;
-  height: 60px;
+  pointer-events: auto;
+  cursor: pointer;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  color: #153630;
   border-radius: 50%;
-  border: 3px solid #2EECC5;
-  box-shadow: 0 0 20px rgba(46, 236, 197, 0.6);
-  transition: all 0.3s ease;
-  z-index: 999 !important;
-  position: absolute;
-  top: 50% !important;
-  transform: translateY(-50%);
+  border: 2px solid #153630;
+  background: linear-gradient(to bottom, #323939, #19201F) padding-box, linear-gradient(to bottom, #323939, #303134) border-box;
 }
 .pricing-swiper .swiper-button-next .pricing-swiper .swiper-button-prev,
 .pricing-swiper .swiper-button-prev .pricing-swiper .swiper-button-prev {
@@ -627,13 +626,6 @@
 .pricing-swiper .swiper-button-prev:after {
   font-size: 22px;
   font-weight: bold;
-}
-.pricing-swiper .swiper-button-next:hover,
-.pricing-swiper .swiper-button-prev:hover {
-  background-color: #2EECC5 !important;
-  color: #161617 !important;
-  box-shadow: 0 0 30px #2EECC5;
-  transform: scale(1.1);
 }
 
 .pricing-swiper .swiper-button-next {
