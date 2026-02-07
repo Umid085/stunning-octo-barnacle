@@ -43,6 +43,7 @@ $border-color_1: #2EECC5;
 	font-weight: bold;
 	background: linear-gradient(to right, #B5FEEF, #2EECC5);
 	-webkit-background-clip: text;
+	background-clip: text;
 	-webkit-text-fill-color: transparent;
 	gap: 0.5rem;
 }
