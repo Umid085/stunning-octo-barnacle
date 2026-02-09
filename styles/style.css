@@ -1,3 +1,16 @@
+@font-face {
+  font-family: "Ruberoid";
+  src: url("/fonts/ruberoid/Ruberoid-ExtraLight.woff") format("woff"), url("/fonts/ruberoid/Ruberoid.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+/* If you have a Bold version, add it too */
+@font-face {
+  font-family: "Ruberoid";
+  src: url("/fonts/ruberoid/Ruberoid.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+}
 .navbar {
   display: flex;
   flex-direction: row;
@@ -6,7 +19,8 @@
   padding: 3rem;
   background-color: #161617;
   color: #ffffff;
-  font-family: sans-serif;
+  font-family: "Ruberoid";
+  font-weight: medium;
   position: fixed;
   z-index: 1000;
   width: 100%;
