@@ -337,7 +337,66 @@
   }
 
   .pricing-section {
-    display: none !important;
+    width: 100%;
+    padding-bottom: 4rem;
+
+    .pricing-container {
+      padding: 0 15px;
+      width: 90%;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .pricing-title {
+      font-size: 30px;
+    }
+
+    .pricing-window {
+      padding: 10px 0;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+
+    .pricing-swiper {
+      width: 100%;
+      padding: 0 10px;
+    }
+
+    .swiper-slide {
+      width: 100%;
+      padding: 0 5px;
+      height: auto;
+      display: flex;
+      justify-content: center;
+    }
+
+    .pricing-card {
+      max-width: 350px;
+      gap: 2rem;
+    }
+
+    .pricing-slider-control {
+        position: relative;   
+        height: auto;          
+        margin-top: 2rem;      
+        display: flex;
+        justify-content: center;
+        gap: 50px;             /* This controls how "close" they are to each other */
+        pointer-events: auto;  /* Ensure they are clickable */
+        flex-direction: row-reverse;
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        position: relative;    /* Remove absolute pinning to the far edges */
+        top: 0;                /* Reset the 65% vertical position */
+        transform: none;       /* Remove the vertical centering transform */
+        left: auto !important; /* Reset left position */
+        right: auto !important;/* Reset right position */
+        margin: 0;             /* Remove default swiper margins */
+    }
   }
 
   .form-section {

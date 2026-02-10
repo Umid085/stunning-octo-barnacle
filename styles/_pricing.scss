@@ -34,9 +34,9 @@
 }
 
 .swiper-window {
-    overflow: hidden; /* This stops the cards from going outside the center */
+    overflow: hidden;
     width: 100%;
-    padding: 20px 0; /* Gives cards some breathing room top/bottom */
+    padding: 20px 0;
 }
 
 // Swiper container styles
@@ -130,11 +130,6 @@
   width: 172px;
   height: auto;
   transition: all 0.3s ease;
-  
-  // &:hover {
-  //   background-color: rgba(46, 236, 197, 0.2);
-  //   box-shadow: 0 0 10px #2EECC5;
-  // }
 }
 
 .pricing-slider-control {
@@ -167,7 +162,6 @@
     position: absolute;
     transform: translateY(-50%);
     z-index: 100;
-    /* Move them outside the 'window' */
     top: 65%;
   
   &:after {
