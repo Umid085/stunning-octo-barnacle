@@ -1094,6 +1094,7 @@
   }
   .hero-section .hero-image {
     left: 30%;
+    width: 35vw;
   }
   .cards-section {
     position: relative;
