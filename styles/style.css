@@ -625,7 +625,13 @@
 }
 
 .pricing-slider-control {
-  width: 100px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  display: flex;
 }
 
 .swiper-button-next,
@@ -644,10 +650,10 @@
   border: 2px solid #153630;
   background: linear-gradient(to bottom, #323939, #19201F) padding-box, linear-gradient(to bottom, #323939, #303134) border-box;
   position: absolute;
-  top: 50%;
   transform: translateY(-50%);
   z-index: 100;
   /* Move them outside the 'window' */
+  top: 65%;
 }
 .swiper-button-next:after,
 .swiper-button-prev:after {
