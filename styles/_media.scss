@@ -151,7 +151,7 @@
 
   .hero-section {
     display: flex !important;
-    padding: 2rem 1rem;
+    padding: 0;
     position: relative;
     
     flex-direction: row;
@@ -168,6 +168,8 @@
 
       justify-content: flex-start;
       top: 10%;
+      height: 100%;
+      padding-left: 5%;
     }
 
     .hero-title {
@@ -176,10 +178,6 @@
 
     .hero-subtitle {
       display: none !important;
-    }
-
-    .hero-image {
-      width: 70vh;
     }
 
     .hero-title-bottom {
@@ -214,6 +212,7 @@
       width: 50%;
       height: 140vw;
       z-index: 1;
+      overflow: hidden;
     }
 
     .bg-circle {
@@ -221,11 +220,14 @@
       overflow: hidden !important;
       top: 0;
       left: 40%;
+      width: 150vw;
+      height: auto;
     }
 
     .hero-image {
       left: 30%;
-      width: 35vw;
+      width: 50vw;
+      height: auto;
     }
   }
 

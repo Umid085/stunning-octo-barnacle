@@ -1034,7 +1034,7 @@
   }
   .hero-section {
     display: flex !important;
-    padding: 2rem 1rem;
+    padding: 0;
     position: relative;
     flex-direction: row;
     height: auto !important;
@@ -1047,15 +1047,14 @@
     position: relative;
     justify-content: flex-start;
     top: 10%;
+    height: 100%;
+    padding-left: 5%;
   }
   .hero-section .hero-title {
     font-size: 27px;
   }
   .hero-section .hero-subtitle {
     display: none !important;
-  }
-  .hero-section .hero-image {
-    width: 70vh;
   }
   .hero-section .hero-title-bottom {
     display: none !important;
@@ -1085,16 +1084,20 @@
     width: 50%;
     height: 140vw;
     z-index: 1;
+    overflow: hidden;
   }
   .hero-section .bg-circle {
     position: relative;
     overflow: hidden !important;
     top: 0;
     left: 40%;
+    width: 150vw;
+    height: auto;
   }
   .hero-section .hero-image {
     left: 30%;
-    width: 35vw;
+    width: 50vw;
+    height: auto;
   }
   .cards-section {
     position: relative;
