@@ -6,7 +6,7 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  z-index: 1;
+  z-index: 1;;
 
 
   .footer-title {
@@ -57,99 +57,25 @@
     background-color: #2EECC5;
   }
 
-  .footer .footer-date-info {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 15px;
+  .footer-date-info {
+    font-family: 'Ruberoid';
+    font-size: 20px;
+    font-style: medium;
+
+    padding: 10px;
+    
+    color: white;
     opacity: 70%;
-    font-style: regular;
-    margin-top: 20px;
   }
 
-  .footer .footer-disclaimer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-    font-size: 13px;
+  .footer-disclaimer {
+    font-family: 'Ruberoid';
+    font-size: 15px;
+    font-style: medium;
+
+    padding: 7px;
+
+    color: white;
     opacity: 40%;
   }
-
-  .footer {
-    color: $white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    .footer-title {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-
-      font-weight: 400;
-      font-style: bold;
-      font-size: 96px;
-
-    }
-
-    .footer-icons {
-      display: flex;
-      align-items: center;
-      justify-content: space-around;
-      color: transparent;
-
-      a {
-        background-color: $white;
-        border-radius: 50%;
-
-        width: 90px;
-        height: 90px;
-
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-decoration: none;
-
-        i {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          color: $dark;
-          background: transparent;
-          
-          font-size: 2rem;
-        }
-
-        .footer-icons a:hover {
-        box-shadow: 0 0 0 4px $white;
-        transform: scale(1.05);
-        transition: 0.2s;
-        }
-      }
-    }
-
-    .footer-date-info {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-
-      font-size: 15px;
-      opacity: 70%;
-      font-style: regular;
-
-      margin-top: 20px;
-    }
-
-    .footer-disclaimer {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 20px;
-
-      font-size: 13px;
-      opacity: 40%;
-    }
-  }
-
 }
