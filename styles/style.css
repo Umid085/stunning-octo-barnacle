@@ -929,8 +929,8 @@
     flex-direction: row-reverse;
     align-items: center;
     padding: 1rem 2rem;
-    width: 100vw;
-    max-width: 767px;
+    width: 100% !important;
+    max-width: 766px !important;
     left: 0 !important;
     right: 0 !important;
     box-sizing: border-box;
