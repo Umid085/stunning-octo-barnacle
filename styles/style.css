@@ -1244,6 +1244,10 @@
     width: 100%;
     background-color: linear-gradient(to right, green yellow);
   }
+  .footer .footer-date-info,
+  .footer .footer-disclaimer {
+    font-size: 9px;
+  }
 }
 * {
   margin: 0;
