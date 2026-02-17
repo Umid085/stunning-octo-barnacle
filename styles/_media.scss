@@ -158,7 +158,6 @@ $background-color_1: rgba(46, 236, 197, 0.1019607843);
   .hero-section {
     display: flex !important;
     padding: 0;
-    padding-top: 60px;
     position: relative;
     
     flex-direction: row;
@@ -217,7 +216,7 @@ $background-color_1: rgba(46, 236, 197, 0.1019607843);
     .hero-right-section {
       position: relative !important;
       width: 50%;
-      height: 70vw;
+      height: 90vw;
       z-index: 1;
       overflow: hidden;
     }

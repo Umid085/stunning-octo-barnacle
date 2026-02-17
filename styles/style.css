@@ -89,7 +89,7 @@
 
 .hero-section {
   position: relative;
-  min-height: 140vh !important;
+  height: 140vh !important;
   width: 100%;
   display: flex;
   justify-content: end;
@@ -979,7 +979,6 @@
   .hero-section {
     display: flex !important;
     padding: 0;
-    padding-top: 60px;
     position: relative;
     flex-direction: row;
     height: auto !important;
@@ -1027,7 +1026,7 @@
   .hero-section .hero-right-section {
     position: relative !important;
     width: 50%;
-    height: 70vw;
+    height: 90vw;
     z-index: 1;
     overflow: hidden;
   }
