@@ -478,7 +478,11 @@
 
     .footer-icons {
       width: 100%;
-      background-color: linear-gradient(to right, green yellow);
+      background: linear-gradient(to right, #313134, #222224, #292929) !important;
+      padding: 20px 0;
+      height: auto;
+      border-top: 1px solid grey;
+      border-bottom: 1px solid grey;
     }
 
     .footer-date-info,
