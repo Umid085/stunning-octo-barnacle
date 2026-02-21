@@ -1,0 +1,123 @@
+$color_1: #ffffff;
+$font-family_1: Arial, sans-serif;
+$font-family_2: Arial, Helvetica, sans-serif;
+$background-color_1: rgba(46, 236, 197, 0.1019607843);
+$border-color_1: #2EECC5;
+
+@import "colors";
+.hero-section {
+	position: relative;
+	height: 140vh !important;
+	width: 100%;
+	display: flex;
+	justify-content: end;
+	align-items: center;
+	background: $dark;
+	padding: 2rem;
+	background-image: url('../images/hero_bg.jpeg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
+
+}
+.hero-left-section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	height: 80%;
+	gap: 1.5rem;
+	width: 50%;
+	margin-left: 7rem;
+}
+.hero-title {
+	font-size: 60px;
+	font-family: $font-family_1;
+	font-style: normal;
+	font-weight: bold;
+	background: linear-gradient(to right, #B5FEEF, #2EECC5);
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	gap: 0.5rem;
+	filter: drop-shadow(0px 0px 5px #2EECC5);
+}
+.hero-title-bottom {
+	font-size: 45px;
+	font-style: normal;
+	font-family: $font-family_1;
+	font-weight: 700;
+	background: linear-gradient(to right, #B5FEEF, #2EECC5);
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	filter: drop-shadow(0px 0px 5px #2EECC5);
+}
+.hero-subtitle {
+	font-family: $font-family_2;
+	font-style: medium;
+	font-weight: 400;
+	font-size: 22px;
+	color: $color_1;
+	opacity: 65%;
+	background: transparent;
+}
+
+.hero-subtitle-mobile-text {
+	display: none !important;
+}
+
+.hero-more {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	gap: 1rem;
+}
+.hero-btn {
+	padding: 0.4rem 1rem;
+	font-family: 'Ruberoid';
+	font-size: 1rem;
+	border-radius: 49px;
+	border-color: $border-color_1;
+	color: $color_1;
+	background-color: $background-color_1;
+	box-shadow: 0 0 5px #2EECC5, 0 0 10px #2EECC5, 0 0 20px #2EECC5;
+	text-decoration: none;
+}
+.hero-p {
+	font-family: $font-family_2;
+	font-style: regular;
+	font-weight: 400;
+	font-size: 19px;
+	color: $color_1;
+	opacity: 65%;
+	background: transparent;
+}
+.hero-right-section {
+	position: relative;
+	width: 50%;
+	height: 60vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 2rem;
+	z-index: 1;
+}
+.bg-circle {
+	position: absolute;
+	top: -10%;
+	left: 30%;
+	width: 70vh;
+	height: auto;
+	z-index: 1;
+	background: transparent;
+}
+.hero-image {
+	position: absolute;
+	width: 70vh;
+	height: auto;
+	z-index: 2;
+	background: transparent;
+}
