@@ -2,9 +2,9 @@ from django.db import models
 
 # Create your models here.
 class UserMessage(models.Model):    
-    name = models.ChartField(max_length=100)
+    name = models.CharField(max_length=100)
     email = models.EmailField()
-    message = models.TestField()
+    message = models.TextField()
     received_at = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
