@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .model import UserMessage
+from .models import UserMessage
 
 # Register your models here.
 admin.site.register(UserMessage)
