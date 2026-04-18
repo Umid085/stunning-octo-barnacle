@@ -1,10 +1,11 @@
 from django.db import models
 
-# Create your models here.
-class UserMessage(models.Model):    
+class UserMessage(models.Model):
     name = models.CharField(max_length=100)
+    call = models.CharField(max_length=20, blank=True, default='')
     email = models.EmailField()
-    message = models.TextField()
+    budget = models.IntegerField(null=True, blank=True)
+    comment = models.TextField()
     received_at = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
