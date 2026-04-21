@@ -689,7 +689,7 @@
 
 .form-section {
   width: auto;
-  height: 458px;
+  min-height: 458px;
   background: linear-gradient(to right, #313134, #222224, #12473C, #292929);
   display: flex;
   justify-content: center;
@@ -698,6 +698,14 @@
   font-family: "Ruberoid";
   position: relative;
   z-index: 1;
+}
+
+.form-section form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  width: 100%;
 }
 
 .form-left {
